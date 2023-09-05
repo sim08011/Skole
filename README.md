@@ -1,1 +1,1 @@
-# Her skal jeg legge skoleprosjekter jeg jobber med i utvikling på VG2
+# Her skal jeg legge skoleprosjekter jeg jobber med på skolen.
