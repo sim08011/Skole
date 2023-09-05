@@ -1,2 +1,1 @@
-# Skole
- Et oppbevaringssted for arbeid som jeg holder på med på skolen
+# Her skal jeg legge skoleprosjekter jeg jobber med i utvikling på VG2
