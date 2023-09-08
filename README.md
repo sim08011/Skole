@@ -1,1 +1,1 @@
-# Her skal jeg legge skoleprosjekter jeg jobber med på skolen.
+# Her skal jeg legge skoleprosjektene jeg jobber med i utvikling på skolen.
