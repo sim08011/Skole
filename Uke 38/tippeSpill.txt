@@ -1,0 +1,27 @@
+Tippespill
+
+
+Importere nødvendige bibliotek.
+
+Spesifisere maksgrense av hvor høyt det tilfeldige tallet kan gå opp til i en variabel som heter maksTall.
+Printe ut forklaring av spill.
+
+Definere en funskjon som heter tippeSpill.
+    Definere en variabel som lagrer antall gjett.
+    Definere en variabel som lagrer om brukeren har vunnet. Denne skal starte usann.
+    Generere et tilfeldig tall mellom 1 og maksTall
+
+    Definere en while-løkke som kjører så lenge brukeren ikke har vunnet.  
+        Definere en inputvariabel der brukeren kan gjette tall.
+        Øke antall gjett for hver gang løkken kjører.
+        Sjekke om brukeren har skrevet et tall som er høyere, lavere eller likt det tallet man skal gjette i en valgsetning.
+            Om spilleren har vunnet skal variabelen som inneholder om brukeren har vunnet endres til sann.
+    
+    Definere en variabel som sjekker om brukeren har valgt å restarte programmet. Denne skal starte som usann.
+
+    Definere en while-løkke som sjekker kjører så lenge variabelen harRestartet ikke er sann.
+    Definere en inputvariabel der brukeren skal skrive j eller n.
+    Valgsetning som sjekker hva brukeren har skrevet, der den velger om programmet skal kjøres på nytt eller avsluttes.
+
+
+Kjører funksjonen en gang, slik at programmet starter.
