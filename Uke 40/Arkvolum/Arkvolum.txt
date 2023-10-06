@@ -1,0 +1,26 @@
+Algoritme for hvordan man kan brette et a4-ark for å få størst volum.
+
+Definere variabel for a4 lengde i millimeter
+Definere variabel for a4 bredde i millimeter
+Definere variabel for starthøyde i millimeter
+
+Definere en funksjon som kjører algoritmen
+
+    Definere variabel som skal lagre det største volumet vi har fått så langt i liter
+    Definere variabel som skal lagre det gjeldene volumet som har blitt regnet ut
+
+    Definere en while-løkke som kjører så lenge det gjeldende volumet ikke er mindre en det største vi har funnet ut av
+
+        Definere en variabel som lagrer den nye lengden til arket med tanke på at høyden tar litt av sidene
+        Definere en variabel som lagrer den nye bredden til arket med tanke på at høyden tar litt av sidene
+
+        Tilordne volumet av arket i antall liter
+
+        Definere en valgsetning som sjekker om det gjeldende volumet er større enn det forrige største volumet
+            Hvis riktig skal det største volumet endres til det nye største volumet (gjeldendeVolum)
+        
+        Legge til litt høyde for neste gang programmet skal kjøre
+
+    Skrive ut resultat til bruker
+
+Kjøre funksjonen
