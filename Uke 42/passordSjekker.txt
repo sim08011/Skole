@@ -1,0 +1,16 @@
+Passordsjekker
+
+Definere inputvariabel der brukeren kan skrive inn passordet
+
+Lage boolvariabeler som inneholder krav til passord (harStorBokstav, harLitenBokstav, harTall, harSpesialTegn og har8tegn)
+
+Sjekker først om passordet er større eller lik 8 og gjør variabelen har8Tegn til True dersom det er sant
+
+
+Definere en for-løkke som kjører igjennom alle bokstavene i passordet
+	
+	Sjekke om passordet oppfyller de ulike resterende kravene ved å teste den spesifikke bokstaven som er valgt i denne iterasjonen av løkka oppfyller et av kravene
+	
+
+Printe ut hva som eventuelt bør endres på passordet
+Hvis alle kravene er fylt, printes det ut en hyggelig beskjed til brukeren
