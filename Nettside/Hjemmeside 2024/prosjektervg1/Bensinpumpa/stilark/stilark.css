@@ -1,0 +1,55 @@
+/*Bakgrunn*/
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color:rgb(255,255,255);
+}
+body {
+    background-image: url('../bilder/bakgrunn.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+}
+
+/*Tekst*/
+h1, h2, h3, h4, h5{
+    color:rgb(204, 112, 7);
+    font-weight:bold;
+}
+button, input{
+    color:rgb(0, 0, 0);
+}
+
+
+
+/*Grid til sidene*/
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 3%;
+    border-radius: 5px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+.grid-item {
+    background-color: rgba(37, 37, 37, 0.925);
+    border: 1px solid rgba(45, 45, 45, 0.8);
+    padding: 3%;
+    font-size: 100%;
+    border-radius: 10px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.grid-spacer {
+    height: 100px;
+}
+
+
+#totalpris, #literBensinTekst {
+    font-weight: bold;
+}

@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+<title></title>
+</head>
+<body>
+<p>Geolokasjon</p>
+<div id="posisjon"></div>
+<script>
+navigator.geolocation.getCurrentPosition(
+function(pos) {
+document.getElementById("posisjon").innerHTML =
+pos.coords.latitude + " - " + pos.coords.longitude;
+}
+);
+</script>
+</body>
+</html>

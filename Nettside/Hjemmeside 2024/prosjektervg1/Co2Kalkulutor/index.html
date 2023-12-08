@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stilark.css">
+    <title>Co2Kalkulator</title>
+</head>
+<body>
+    <div class = "grid-container">
+        <div class = "grid-item">
+            <h2>Utslippskalkulator: Bensinbil</h2>
+            <p>Dette er en liten kalkulator for å finne ut hvor mye Co2 utslipp det er per person basert på hvor langt man skal kjøre og hvor mange passasjerer bilen har.</p>
+            <p>Denne kalkulatoren gjelder bensinbiler.</p>
+            Lengde kjøring (km):<br> <input type="number" id="lengdeInput"><br>
+            Antall passasjerer:<br> <input type="number" id="passasjerInput"><br>
+            <input type="submit" value="Regn ut" onclick="regnUt()">
+            <p id="resultat"></p>
+            <p id ="advarsel"></p>
+        </div>
+        <div class = "grid-item">
+            <img src="bilder/bakgrunn.jpg" width="100%">
+        </div>
+    </div>
+
+
+    <div class = "histogramContainer">
+        <div class = "headerItem">
+            <h3>Antall gram Co2utslipp for andre transportmidler</h3>
+        </div>
+        <div id="bybuss"></div>
+        <div id="landebuss"></div>
+        <div id="tog"></div>
+        <div id="fly"></div>
+        <div id="bil"></div>
+        <div id="byBussTekst">
+            <p>Buss i by</p>
+            <p>103</p>
+        </div>
+        <div id="landeBussTekst">
+            <p>Buss på landevei</p>
+            <p>52</p>
+        </div>
+        <div id="togTekst">
+            <p>Tog</p>
+            <p>32</p>
+        </div>
+        <div id="flyTekst">
+            <p>Fly, skandinavia</p>
+            <p>340</p>
+        </div>
+        <div id="bilTekst">
+            <p>Bil</p>
+            <p id = "tallResultat">Ikke angitt</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

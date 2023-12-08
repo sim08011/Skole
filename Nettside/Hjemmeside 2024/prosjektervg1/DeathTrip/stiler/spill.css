@@ -1,0 +1,68 @@
+*{
+    line-height: 5vh;
+}
+
+#spill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 120vh;
+    height: 68vh;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+    background-image: url('../img/spill/SpillForside.png');
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    color: white;
+}
+
+#spill button{
+    background-color: green;
+    color: white;
+    width: 20vh;
+    height: 10%;
+    font-size:xx-large;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+
+  
+#spill button:hover {
+    background-color: rgb(0, 107, 0);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#spillTekst{
+    position: relative; /* make this container relative to position its child elements */
+    text-align: center; /* center the text element horizontally */
+}
+
+.quiz{
+    text-align: center;
+}
+
+#submit{
+    visibility: hidden;
+    background-color: green;
+    color: white;
+    text-align: center; /* center the text element horizontally */
+    width: 20vh;
+    height: 10vh;;
+    font-size:xx-large;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  #submit:hover{
+    background-color: rgb(0, 107, 0);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+.question{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+label{
+    font-weight: normal;
+}

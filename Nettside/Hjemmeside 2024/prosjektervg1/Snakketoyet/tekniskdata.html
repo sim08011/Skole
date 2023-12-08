@@ -1,0 +1,69 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Oppdrag Snakketøy</title>
+      <link rel="stylesheet" href="stiler/stilark.css">
+      <link rel="stylesheet" href="stiler/navbar.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+   </head>
+   <body>
+      <div class="wrapper">
+         <header class="tekniskdataSide">
+            <nav>
+               <div class="menu-icon">
+                  <i class="fa fa-bars fa-2x"></i>
+               </div>
+               <div class="logo">
+                  <img src="bilder/logo.png" width="150vh">
+               </div>
+               <div class="menu">
+                  <ul>
+                     <li><a href="index.html">Hjem</a></li>
+                     <li><a class="selected" href="tekniskdata.html">Teknisk Data</a></li>
+                     <li><a href="flytskjema.html">Flytskjema</a></li>
+                     <li><a href="traadloesteknologi.html">Trådløs Teknologi</a></li>
+                     <li><a href="omoss.html">Om Oss</a></li>
+                  </ul>
+               </div>
+            </nav>
+         </header>
+         <div class="content">
+            <div class="grid-container2">
+               <div class="grid-item">
+                  <h2>Teknisk Data</h2>
+                  <p>
+                     På denne siden finner du teknisk informasjon om AdaptJacket. Her er det både spesifikasjoner og beskrivende tekst om teknologien vi bruker.
+                  </p>
+               </div>
+               <div class="grid-item">
+                  <h3>Type Informasjon:</h3>
+                  Informasjonen som brukes er informasjon om været. Det vil si temperatur, nedbør og generelle værforhold. Informasjonen som blir sendt og mottatt er satt i sammen av <a href="traadloesteknologi.html#Digitaldata">bits</a>, som blir til data som digitale enheter kan oversette.<br>
+                  Informasjonen som bitsene inneholder, er informasjon om temperatur, nedbør og generelle værforhold.
+                  <h3>Trådløs Sender:</h3>
+                  Jakka sin Bluetooth-antenne kan også selvfølgelig sende data til mobiltelefonen. Dette er ikke den viktigste delen av kommunikasjonen, men trengs for at jakken kan oppdatere mobilen med informasjon dens om batteri og tilkobling.</td>
+                  <h3>Mottaker:</h3>Jakka skal fange opp bits fra Bluetooth mottakeren sin, disse Bluetooth-signalene blir sendt direkte i fra mobiltelefonen. Disse bitsene er satt sammen i strenger, og inneholder digital informasjon som chipen i jakka kan oppfatte og sende videre til materialet i jakka.<br> 
+                  Før disse bits-strengene kan komme til mobiltelefonen, må de gjennom det store internettet, fordi det er oftest for lang distanse imellom mobiltelefonen og vår database. Derfor må de først igjennom rutere og et mobiltårn som sender dataene videre til mobiltelefonen. Ruterne finner en god rute til mobiltårnet. Dette mobiltårnet er det som telefonen din er tilkoblet til der og da. 
+                  <h3>Adresse</h3>
+                  Systemet vet at jakka er knyttet til deg i telefonappen. Appen krever pålogging med e-post. Inne på appen kobler man seg til jakka, og da vil den tilhøre deg. Om du eventuelt mister telefonen din, må du holde nede knappen på jakka i 30 sekunder for å bryte tilhørigheten til telefonen.</td>
+                  <h3>Grensesnitt</h3>
+                  Grensesnittet finner du på mobilappen. Der står det alt fra kommende værforhold, batteri på jakka, og tilkobling. Du får også oversikt over eide jakker, hvis du eventuelt skulle hatt flere stykker.</td>
+                  <h3>Kryptering</h3>
+                  Den eneste som skal ha tilgang til værinformasjonen til din posisjon, er deg og databasen vår. Vi bruker egne protokoller for at informasjonen kun skal være leselig av oss og mobiltelefonen. Protokoller er egentlig bare regler for hvordan bitsene skal oversettes til informasjon.</td>
+               </div>
+            </div>
+         </div>
+      </div>
+      </div>
+      <script src="script/navbar.js"></script>
+   </body>
+</html>
+

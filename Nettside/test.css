@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Ubuntu&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(57, 134, 42);
+    font-family: "Ubuntu", sans-serif;
+    font-size: larger;
+}
+
+header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 1%;
+}
+
+header li, header a, header button {
+    font-weight: 400;
+    font-size: 18;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+footer{
+    display: flex;
+    position:relative;
+    align-items: center;
+    bottom: 0;
+    width: 100%;
+    height: 8em; 
+    background-color: black;
+    color: white;
+    padding: 2%;
+}
+
+footer img{
+    right:2vw; 
+    position:absolute;
+    width: 18vw;
+}
+
+.logo {
+    cursor: pointer;
+}
+
+.nav_links {
+    list-style: none;
+}
+.nav_links li {
+    display: inline-block;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.nav_links li a {
+    transition: all, 0.3s ease 0s;
+}
+.nav_links li a:hover {
+    color: rgba(30, 226, 0, 0.8);
+}
+
+#selectedTab{
+    color: rgba(30, 226, 0, 0.8);
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(30, 226, 0, 0.8);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all, 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(101, 129, 0, 0.8);
+}
+
+.button2{
+    display: flex;
+    margin: auto;
+    padding: 75px 175px;
+    font-size: larger;
+    background-color: rgba(30, 226, 0, 0.8);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all, 0.3s ease 0s;
+}
+
+.grid-container1 {
+    display:grid;
+    background-color: rgba(231, 231, 231, 0.993);
+    grid-template-columns: auto;
+    width: 85%;
+    margin: auto;
+}
+
+.grid-container2 {
+    display:grid;
+    background-color: rgba(231, 231, 231, 0.993);
+    grid-template-columns: auto auto;
+    width: 85%;
+    margin: auto;
+}
+.grid-item {
+    width: 100%;
+    padding: 4vh;
+}
+.grid-spacer{
+    height: 125px;
+}
+.grid-spacer2{
+    height: 50px;
+}
+
+
+
+/*Tekstformatering*/
+#smallText{
+    font-size: smaller;
+}
+#centerText{
+    text-align: center;
+}
+#largeLineHeight{
+    line-height: 3rem;
+}
+
+
+
+
+@media(max-width: 900px){
+    .grid-container2 {
+        grid-template-columns: auto;
+    }
+    .logo {
+        position: fixed;
+        top: 0;
+        margin-top: 6px;
+    }
+
+    nav ul {
+        max-height: 0px;
+        background: #0cb900;
+    } 
+
+    nav.black ul {
+        background: #0cb900;
+    }
+
+    .showing {
+        max-height: 34em;
+    }
+
+    nav ul li {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}

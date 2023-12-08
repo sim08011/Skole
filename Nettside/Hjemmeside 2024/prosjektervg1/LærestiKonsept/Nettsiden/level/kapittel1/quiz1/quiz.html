@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../stiler/stilark.css">
+    <link rel="stylesheet" href="../../../stiler/navbar.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <title>Læresti</title>
+</head>
+<header>
+  <nav>
+    <div class="menu-icon">
+       <i class="fa fa-bars fa-2x"></i>
+    </div>
+    <div class="logo">
+      <a href="../../../index.html"> <img src="../../../img/hjem.png" width="55em"> </a>
+    </div>
+    <div class="menu">
+       <ul>
+          <li><a href="../../../index.html">Hjem</a></li>
+          <li><a class="selected" href="../../../laeresti.html">Læresti</a></li>
+          <li><a href="../../../kapitteloversikt.html">Kapitteloversikt</a></li>
+          <li><a href="../../../innstillinger.html">Innstillinger</a></li>
+          <li><a href="../../../omoss.html">Om Oss</a></li>
+       </ul>
+    </div>
+ </nav>
+</header>
+<body>
+  <div class="grid-spacer"></div>
+  <div class="grid-container">
+      <div class="grid-item" id="whiteBg">
+      
+      
+      <div id="quiz"></div>
+      <button class="knapp" id="sjekk">Sjekk</button>
+      <div id="resultater"></div>
+      <br>
+      <a href="../../../laeresti.html"><button class="knapp" onclick="lagreQuizFremgang()">Ferdig</button></a>
+    </div>
+    <div class="grid-spacer"></div>
+  <script src="../../../script/navbar.js"></script>
+  <script src="quizScript.js"></script>
+</body>
+</html>

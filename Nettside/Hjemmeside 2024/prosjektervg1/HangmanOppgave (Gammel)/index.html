@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stilark.css">
+    <title>Hangman (Uten mann)</title>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="grid-item">
+            <h2>Hangman! (Uten mann)</h2>
+            Gjett: <input type="character" maxlength="1" id ="bokstavInput"> <button onclick="gjett()">X</button>
+            <p id="poeng">Poeng: 0</p>
+            <span id="ordTekst">Gjett en bokstav!</span> <br>
+            <span id="feilEllerRiktig"></span> <br>
+            <p id="feilGjett">Feilgjett: </p>
+            <p id="gratulerer"></p>
+            <button onClick="window.location.reload();">Restart</button>
+        </div>
+        <div class="grid-spacer"></div>
+        <div class="grid-item">
+            <h2>Hvordan man spiller:</h2>
+            <p>I dette spillet skal man finne ut av alle bokstavene i et tilfeldig ord. Du gjetter en og en bokstav og bygger opp ordet. Riktig gjett gir deg 3 poeng, og feil gjett trekker fra 1 poeng. Det er om å gjøre å få flest poeng når du har løst ordet.</p>
+            <p id="infoTekst">Laget av Simon, 1IKA Porsgrunn VGS</p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stilark.css">
+    <title>Array Oppgave</title>
+</head>
+<body onload="ordneDropDown()">
+    <h1>Array oppgave</h1>
+    <button onclick="skrivUtFag()" >Skriv ut fag</button>
+    <button onclick="skrivUtFagBaklengs()" >Skriv ut fag Baklengs</button>
+    <button onclick="gjørAlfabetisk()" >Gjør rekkefølgen alfabetisk</button><br>
+    <p>Her kan du legge til ekstra fag:</p>
+    Legg til fag: <input id="fagAdd" placeholder="Fag"><button onclick="leggTilFag()" >Legg til</button><br>
+    <select id="dropdown"></select><button onclick="slettFag()">Slett</button>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    font-family: 'Kanit', sans-serif;
+    font-weight: lighter;
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+}
+
+.content {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+    width: 94%;
+    margin: 4em auto;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+}
+
+.logo {
+    line-height: 60px;
+    position: fixed;
+    float: left;
+    margin: 16px 46px;
+    color: rgb(255, 123, 0);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+}
+
+nav ul {
+    line-height: 60px;
+    list-style: none;
+    background: rgba(0, 159, 138, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    padding-right: 0px;
+    transition: 1s;
+}
+
+nav.black ul {
+    background: #353535;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 40px;;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+}
+
+.menu-icon {
+    line-height: 80px;
+    width: 100%;
+    background: #353535;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+}
+
+@media(max-width: 950px) {
+
+    .logo {
+          position: fixed;
+          top: 0;
+          margin-top: 6px;
+    }
+
+    nav ul {
+          max-height: 0px;
+          background: #353535;
+    }
+
+    nav.black ul {
+        background: #353535;
+    }
+
+    .showing {
+          max-height: 34em;
+    }
+
+    nav ul li {
+          box-sizing: border-box;
+          width: 100%;
+          padding: 24px;
+          text-align: center;
+    }
+
+    .menu-icon {
+          display: block;
+    }
+
+}
+
+
+  .hjemSide{
+    background: url(../bilder/bakgrunn.jpg) no-repeat 50% 50%;
+    background-size: cover;
+  }
+  .traadloesteknologiSide{
+    background: url(../bilder/traadloesteknologibakgrunn.jpg) no-repeat 50% 50%;
+    background-size: cover;
+  }
+  .tekniskdataSide{
+    background: url(../bilder/tekniskdatabakgrunn.jpg) no-repeat 50% 50%;
+    background-size: cover;
+  }
+  .omossSide{
+    background: url(../bilder/omossbakgrunn.jpg) no-repeat 50% 50%;
+    background-size: cover;
+  }
+  .flytskjemaSide{
+    background: url(../bilder/flytskjemabakgrunn.jpg) no-repeat 50% 50%;
+    background-size: cover;
+  }
+  

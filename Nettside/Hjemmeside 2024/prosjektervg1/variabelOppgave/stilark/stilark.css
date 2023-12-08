@@ -1,0 +1,39 @@
+/*Bakgrunn*/
+body {
+    background-image: url('../bilder/bakgrunn.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+}
+
+/*Tekst*/
+h1, h2, h3, h4, h5{
+    color:rgb(221, 70, 70);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+p, li, a, button, label {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*Grid til sidene*/
+.grid-container {
+    display: grid;
+    grid-template-columns: auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.grid-item {
+
+    background-color: rgba(255, 255, 255, 0.925);
+    border: 1px solid rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 10px;
+}
+
+

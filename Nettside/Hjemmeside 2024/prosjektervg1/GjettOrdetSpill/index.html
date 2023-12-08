@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stilark.css">
+    <title>Gjett Ordet</title>
+</head>
+<body>
+    <div class="fixed-button">
+        <button onclick="lysModus()">Lysmodus</button>
+    </div>
+    <div class="grid-container">
+        <div class="grid-item">
+            <h2>GJETT ORDET!</h2>
+            <span id="bokstav">Antall bokstaver: </span><input type="character" maxlength="1" id ="bokstavInput"> <button onclick="gjettEllerBokstavAntall()">✓</button>
+            <p id="antallGjett"></p>
+            <span id="ordTekst">Hvor mange bokstaver skal ordet ha?</span> <br>
+            <span id="feilEllerRiktig"></span> <br>
+            <p id="feilGjett"></p>
+            <p id="gratulerer"></p>
+            <button onClick="restartSpill()">Restart</button>
+        </div>
+        <div class="grid-spacer"></div>
+        <div class="grid-item">
+            <h2>Hvordan man spiller:</h2>
+            <p>I dette spillet skal man finne ut av alle bokstavene i et tilfeldig ord. Du gjetter en og en bokstav og bygger opp ordet. Det er om å gjøre å bruke færrest antall gjett når du har løser ordet.</p>
+            <p id="infoTekst">Laget av Simon, 1IKA Porsgrunn VGS</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

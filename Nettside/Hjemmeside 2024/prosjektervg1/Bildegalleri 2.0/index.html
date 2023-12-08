@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/ico.png">
+    <link rel="stylesheet" href="stilark.css">
+    <title>Bildegalleri 2.0</title>
+</head>
+<body onmousemove="musOver()" onclick="openW3()">
+    <div class="header">
+        <h1>Bildegalleri 2.0</h1>
+        <p>Dette er en ganske tilfeldig side for å teste ut et par funksjoner</p>
+    </div>
+    <div id="gjeldendeBilde"><img src="img/bilde.jpg"></div>
+    <p id="bildeTekst">Windows 1.0</p>
+    <button onclick="forrigeBilde()">Forrige bilde</button>
+    <button onclick="nesteBilde()">Neste bilde</button><br>
+    <a href="https://en.wikipedia.org/wiki/Microsoft_Windows_version_history">Les mer om Windows versjoner: Wikipedia</a>
+    <p>Hvis du trykker med X koordinat på over 1000 vil W3schools åpne seg. Har du stor nok skjerm?</p>
+    <div class="brukerInfo">
+        <h2>Info:</h2>
+        <p id="koordinater">MusX: 0   MusY: 0</p>
+        <p id="antallBilder">Antall bilder sett: 1</p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

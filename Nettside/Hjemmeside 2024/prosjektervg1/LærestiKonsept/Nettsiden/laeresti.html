@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stiler/stilark.css">
+    <link rel="stylesheet" href="stiler/navbar.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <title>Læresti</title>
+</head>
+<header>
+  <nav>
+    <div class="menu-icon">
+       <i class="fa fa-bars fa-2x"></i>
+    </div>
+    <div class="logo">
+      <a href="index.html"> <img src="img/hjem.png" width="55em"> </a>
+    </div>
+    <div class="menu">
+       <ul>
+          <li><a href="index.html">Hjem</a></li>
+          <li><a class="selected" href="laeresti.html">Læresti</a></li>
+          <li><a href="kapitteloversikt.html">Kapitteloversikt</a></li>
+          <li><a href="innstillinger.html">Innstillinger</a></li>
+          <li><a href="omoss.html">Om Oss</a></li>
+       </ul>
+    </div>
+ </nav>
+</header>
+<body onload="lastLevelFremgang()">
+  <div class="grid-container">
+    <div class="grid-item" id="centerText">
+      <h2>0% Fullført</h2>
+      <h2>Kapittel 1: Introduksjon</h2>
+      <a href="level/kapittel1/level1/level.html"><button class="levelKnapp" id="level1" >1</button></a><br>
+      <a href="level/kapittel1/level2/level.html"><button class="levelKnapp" id="level2">2</button></a><br>
+      <a href="level/kapittel1/quiz1/quiz.html"><button class="levelKnapp" id="quiz1">?</button></a><br>
+      <h2>Kapittel 2: IP-pakker</h2>
+      <a href="level/kapittel2/level3/level.html"><button class="levelKnapp" id="level3">3</button></a><br>
+      <a href="level/kapittel2/level4/level.html"><button class="levelKnapp"id="level4">4</button></a><br>
+      <a href="level/kapittel2/level5/level.html"><button class="levelKnapp" id="level5">5</button></a><br>
+      <a href="levelkapittel2//quiz2/quiz.html"><button class="levelKnapp" id="quiz2">?</button></a><br>
+      <h2>Kapittel 3: DNS og domener</h2>
+      <a href="level/kapittel3/level6/level.html"><button class="levelKnapp" id="level6">6</button></a><br>
+      <a href="level/kapittel3/level7/level.html"><button class="levelKnapp"id="level7">7</button></a><br>
+      <a href="level/kapittel3/level8/level.html"><button class="levelKnapp" id="level8">8</button></a><br>
+      <a href="level/kapittel3/quiz3/quiz.html"><button class="levelKnapp" id="quiz3">?</button></a><br>
+      <h2>Kapittel 4: Rutingtabeller og globale rutere</h2>
+      <a href="level/kapittel4/level9/level.html"><button class="levelKnapp" id="level9">9</button></a><br>
+      <a href="level/kapittel4/level10/level.html"><button class="levelKnapp"id="level10">10</button></a><br>
+      <a href="level/kapittel4/level11/level.html"><button class="levelKnapp" id="level11">11</button></a><br>
+      <a href="level/kapittel4/quiz4/quiz.html"><button class="levelKnapp" id="quiz4">?</button></a><br>
+
+      <img src="img/flagg.png" width="135vh">
+    </div>
+  </div>
+  <script src="script/navbar.js"></script>
+  <script src="script/levelData.js"></script>
+</body>
+</html>

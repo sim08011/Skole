@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../stilark.css">
+    <title>Skynnøve Blåser Bort! | Starten</title>
+</head>
+<style>#bok{background-image: url('../bilder/lysbilder/starten.png');}</style>
+<!--Grunnen til at jeg bruker <style> her er fordi denne skal endres for hvert eneste html dokument, og det er upraktisk å ha mange stilark, eller mange IDer.-->
+<body>
+    <div id="bok">
+        <div id="tekstBoks">
+            Skynnøve og vennene hennes prater. Hun vil fortelle en vits. Hvilken vits skal hun velge?
+        </div>
+    </div>
+    <div class="button-grid">
+        <a href="../index.html"><button id="knapp1">Gå til start</button></a>
+        <button id="knapp2" onclick="regnskyVits(), saRegnSkyVits()">Regnsky-vits</button>
+        <button id="knapp3" onclick="tareVits()">Tåre-vits</button>
+    </div>
+    <h1>Barnebok laget av Simon, 1IKA</h1>
+    <script src="../script/lysbildeScript.js"></script>
+    <script src="../script/lagringScript.js"></script>
+</body>
+</html>

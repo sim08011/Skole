@@ -1,0 +1,85 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <title>Oppdrag Snakketøy</title>
+      <link rel="stylesheet" href="stiler/stilark.css">
+      <link rel="stylesheet" href="stiler/navbar.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+   </head>
+   <body>
+      <div class="wrapper">
+         <header class="flytskjemaSide">
+            <nav>
+               <div class="menu-icon">
+                  <i class="fa fa-bars fa-2x"></i>
+               </div>
+               <div class="logo">
+                  <img src="bilder/logo.png" width="150vh">
+               </div>
+               <div class="menu">
+                  <ul>
+                     <li><a href="index.html">Hjem</a></li>
+                     <li><a href="tekniskdata.html">Teknisk Data</a></li>
+                     <li><a class="selected" href="flytskjema.html">Flytskjema</a></li>
+                     <li><a href="traadloesteknologi.html">Trådløs Teknologi</a></li>
+                     <li><a href="omoss.html">Om Oss</a></li>
+                  </ul>
+               </div>
+            </nav>
+         </header>
+         <div class="content">
+            <div class="grid-container">
+               <div class="grid-item">
+                  <h2>Flytskjema om AdaptJacket</h2>
+                  <p>
+                     Her er et flytskjema som viser prosessen av å sende værinformasjon mellom satellitten og AdaptJacket-jakka. Hele prosessen er 6 steg. Hvert steg blir beskrevet i teksten nedenfor.
+                  </p>
+               </div>
+            </div>
+            <div class="grid container">
+               <div class="grid-item">
+                  <center><img src="bilder/flytskjema.png" alt="Forklarende flyskjema som viser til hvordan den trådløse prosessen fungerer" width="80%"></center>
+               </div>
+            </div>
+            <div class="grid-container">
+               <div class="grid-item">
+                  <h3 id="blue">Steg 1</h3>
+                  <p>For at dataen fra satellitten skal bli sendt til værdatabasen vår, må satellitten sende signaler i form av radiobølger til antennene på jorden. Satellitten bruker radiobølger på rundt 28 gigahertz.</p>
+                  <p>Antennene fanger deretter opp disse signalene og behandler informasjonen som kommer fra disse signalene.</p>
+               </div>
+               <div class="grid-item"><img src="bilder/satellitt.png" alt="Bilde av en satellitt" width="35%"></div>
+               <div class="grid-item"><h3 id="blue">Steg 2</h3>
+                  <p>Alt av værinformasjon vi sender videre, må gjennom vår lokale ruter først. Værinformasjonen sendes som en IP-pakke. En IP-pakke inneholder sender-IP og destinasjons-IP, samt mer informasjon om ruten den vil ta. Vi sender dataene til den lokale ruteren ved hjelp av Ethernet kabler på 10Gbps.</p>
+                  <p>10Gbps betyr at den kan sende 10,000,000,000 bits per sekund. Bits er enkelt forklart av/på verdier som i strenger kan lagre mye data. <a href="traadloesteknologi.html#Digitaldata">Les mer</a></p></div>
+               <div class="grid-item"><img src="bilder/lokalruter.png" alt="Bilde av en lokal ruter" width="35%"></div>
+               <div class="grid-item"><h3 id="blue">Steg 3</h3>
+                  <p>Denne IP-pakken blir deretter sendt ut til forskjellige globale rutere rundt om i verden. Disse vet hvordan de skal sende pakken videre ved informasjonen som ligger i IP-pakka.</p>
+                  <p>Koblingene mellom disse ruterne er oftest fiberoptiske kabler, som har fordelen av at de kan sende data i lysets hastighet.</p></div>
+               <div class="grid-item"><img src="bilder/globalruter.png" alt="Bilde av et globalt ikon med en antenne, som skal forestille en global ruter" width="35%"></div>
+               <div class="grid-item"><h3 id="blue">Steg 4</h3>
+                  <p>Den ruteren som er nærmest mobiltårnet som har kobling med telefonen sender så videre IP-pakka til mobiltårnet. Dette skjer igjen oftest via fiberoptiske kabler, men kan i noen tilfeller også være kobberkabler. Kobberkabler er den del tregere enn fiberoptiske.</p></div>
+               <div class="grid-item"><img src="bilder/mobiltaarn.png" alt="Bilde av et mobiltårn" width="35%"></div>
+               <div class="grid-item"><h3 id="blue">Steg 5</h3>
+                  <p>Her brukes det smarttelefonens mobildata for å kunne sende signalene videre. Det er derfor viktig at man har mobildata påskrudd for at jakken skal fungere.</p>
+                  <p>For at dataen skal bli sendt videre til smarttelefonen, trengs det et mobiltårn. Dette mobiltårnet som brukes er det som er nærmest telefonen din for å få minst mulig forsinkelse. Hvordan den vet hvilket mobiltårn som er nærmest telefonen er fordi telefonen stadig vekk sender ut signaler for å sjekke hvilket mobiltårn den har sterkest dekning til. Det tårnet som har sterkest dekning er det som telefonen velger å bruke, og dette blir også lagret i en MSC (mobilsentral) som har tilgang til dette mobiltårnet. Mobilsentralen har informasjon om din dataplan, din posisjon og informasjon om telefonen er aktiv. Mobilen sender og mottar elektromagnetiske bølger til mobiltårnet. I dette tilfellet mottar den elektromagnetiske bølger som oversettes til digital data. <a href="traadloesteknologi.html#Overfoering">Les mer om overføring av data med bølger</a></p></div>
+               <div class="grid-item"><img src="bilder/mobil.png" alt="Bilde av en mobil med et Bluetooth symbol" width="35%"></div>
+               <div class="grid-item"><h3 id="blue">Steg 6</h3>
+                  <p>AdaptJacket mottar bluetooth signal fra den tilkoblede smarttelefonen. Mottakingen skjer ved bruk av Bluetooth teknologien. Bluetooth sender på frekvenser som endres kontinuerlig 1600 ganger per sekund og befinner seg i området fra 2,402 til 2,485 gigahertz. Telefonen bør ikke være lenger enn 10 meter unna, for da kan du oppleve avkoblinger, på grunn av lengdebegrensingen til bluetooth.</p></div>
+               <div class="grid-item"><img src="bilder/jakka.png" alt="Bilde av AdaptJacket jakka" width="35%"></div>
+            </div>
+         </div>
+      </div>
+      </div>
+      <script src="script/navbar.js"></script>
+   </body>
+</html>
+

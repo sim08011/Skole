@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../../../stiler/stilark.css">
+    <link rel="stylesheet" href="../../../stiler/navbar.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <title>Læresti</title>
+</head>
+<header>
+  <nav>
+    <div class="menu-icon">
+       <i class="fa fa-bars fa-2x"></i>
+    </div>
+    <div class="logo">
+      <a href="../../../index.html"> <img src="../../../img/hjem.png" width="55em"> </a>
+    </div>
+    <div class="menu">
+       <ul>
+          <li><a href="../../../index.html">Hjem</a></li>
+          <li><a class="selected" href="../../../laeresti.html">Læresti</a></li>
+          <li><a href="../../../kapitteloversikt.html">Kapitteloversikt</a></li>
+          <li><a href="../../../innstillinger.html">Innstillinger</a></li>
+          <li><a href="../../../omoss.html">Om Oss</a></li>
+       </ul>
+    </div>
+ </nav>
+</header>
+<body>
+  <div class="grid-spacer"></div>
+  <div class="grid-container">
+      <div class="grid-item" id="whiteBg">
+      <h2>Intro</h2>
+      <p>I dag bruker vi internett ekstremt ofte, og det brukes til alle mulige ting. Du bruker kanskje internett til å lære, spille online, underholdning, og å kommunisere med venner. Vi integrerer internett stadig oftere inn i forskjellige ting i hverdagen, og dette øker internetttrafikken.</p>
+      <p>I denne lærestien skal vi forklare hvordan denne trafikken fungerer.</p>
+      <h3 onclick="printLevelFremgang()">Denne lærestien inneholder:</h3>
+      <ul>
+        <li>Hva digital data er</li>
+        <li>IP-adresser og IP-pakker</li>
+        <li>Rutere</li>
+        <li>Databaser</li>
+        <li>Domener</li>
+        <li>Referanser fra ulike videospill :)</li>
+      </ul>
+      <a href="../../../laeresti.html"><button id="center" class="knapp" onclick="lagreLevelFremgang()">Ferdig</button></a>
+    </div>
+    <div class="grid-spacer"></div>
+  <script src="../../../script/navbar.js"></script>
+  <script src="levelScript.js"></script>
+</body>
+</html>

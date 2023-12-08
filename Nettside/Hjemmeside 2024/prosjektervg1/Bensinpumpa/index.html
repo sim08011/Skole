@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bensinpumpa</title>
+    <link rel="icon" type="image/x-icon" href="bilder/favico.png">
+    <link rel="stylesheet" href="stilark/stilark.css">
+</head>
+<body onload="bensinPrisTekst()">
+    <div class="grid-container">
+        <div class="grid-item">
+            <h2>Bensinpumpa</h2>
+            <p id="bensinPris"></p>
+            <p>Du får 10% i avslag hvis du fyller 50 liter eller mer.</p>
+            
+            Liter bensin:<input type="number" id="literBensin" placeholder="Liter bensin">
+            <br>
+            <button onclick="regnUtBensinPris()">Skriv ut kvittering</button>
+        </div>
+        <div class="grid-spacer"></div>
+        <div class="grid-item">
+            <h2>Kvittering</h2>
+            <p id="literBensinTekst"></p>
+            <p id="feilmelding"></p>
+            <p id="pris"></p>
+            <p id="avslag"></p>
+            <p id="mva"></p>
+            <p id="totalpris"></p>
+
+            <button onclick="reset()">Reset</button>
+        </div>
+    </div>
+    
+    <script src="script/script.js"></script>
+</body>
+</html>
