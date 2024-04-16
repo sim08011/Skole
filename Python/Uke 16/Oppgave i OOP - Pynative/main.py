@@ -1,4 +1,6 @@
 class Vehicle: 
+    capacity = 0
+
     def __init__(self, name, max_speed,mileage): 
         self.name = name 
         self.max_speed = max_speed 
@@ -27,3 +29,4 @@ bus1 = Bus("Scania Banan", 240, 70000, 45)
 print(bus1.max_speed, bus1.mileage, bus1.capacity)
 print(bus1.fare())
 print(bus1.description()) 
+
