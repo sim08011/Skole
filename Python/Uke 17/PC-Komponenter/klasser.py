@@ -9,7 +9,8 @@ class Component:
 class Processor (Component):
     pass
 
-    def __init__(self, cores, clockspeedInGhz, lithography):
+    def __init__(self, brand, name, price, year, cores, clockspeedInGhz, lithography):
+        super().__init__(brand, name, price, year)
         self.cores = cores
         self.clockspeedInGhz = clockspeedInGhz
         self.lithography = lithography
@@ -47,7 +48,8 @@ class PowerSupply (Component):
 class StorageDrive (Component):
     pass
 
-    def __init__(self, diskType, sizeInGb, formFactor, interface):
+    def __init__(self, brand, name, price, year, diskType, sizeInGb, formFactor, interface):
+        super().__init__(brand, name, price, year)
         self.diskType = diskType
         self.sizeIngb = sizeInGb
         self.formFactor = formFactor
@@ -56,6 +58,4 @@ class StorageDrive (Component):
 
 
 
-GTX1050Ti = VideoCard("NVIDIA", "GTX 1050 Ti", 139, 2016, 4)
 
-print(GTX1050Ti.brand)
