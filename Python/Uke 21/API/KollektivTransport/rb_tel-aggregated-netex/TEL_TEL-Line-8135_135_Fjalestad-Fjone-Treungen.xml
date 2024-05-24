@@ -1,0 +1,2257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PublicationDelivery xmlns="http://www.netex.org.uk/netex" xmlns:gis="http://www.opengis.net/gml/3.2" xmlns:siri="http://www.siri.org.uk/siri" version="1.15:NO-NeTEx-networktimetable:1.5">
+  <PublicationTimestamp>2024-05-21T00:11:55.039</PublicationTimestamp>
+  <ParticipantRef>RB</ParticipantRef>
+  <Description>Fjalestad-Fjone-Treungen</Description>
+  <dataObjects>
+    <CompositeFrame created="2024-05-13T10:00:47.793" version="1" id="TEL:CompositeFrame:3769042">
+      <validityConditions>
+        <AvailabilityCondition version="1" id="TEL:AvailabilityCondition:3768656">
+          <FromDate>2024-05-18T00:00:00</FromDate>
+          <ToDate>2025-05-20T00:00:00</ToDate>
+        </AvailabilityCondition>
+      </validityConditions>
+      <codespaces>
+        <Codespace id="tel">
+          <Xmlns>TEL</Xmlns>
+          <XmlnsUrl>http://www.rutebanken.org/ns/tel</XmlnsUrl>
+        </Codespace>
+        <Codespace id="nsr">
+          <Xmlns>NSR</Xmlns>
+          <XmlnsUrl>http://www.rutebanken.org/ns/nsr</XmlnsUrl>
+        </Codespace>
+      </codespaces>
+      <FrameDefaults>
+        <DefaultLocale>
+          <TimeZone>Europe/Oslo</TimeZone>
+          <DefaultLanguage>no</DefaultLanguage>
+        </DefaultLocale>
+      </FrameDefaults>
+      <frames>
+        <ServiceFrame version="1" id="TEL:ServiceFrame:3769043">
+          <routes>
+            <Route version="2024051333932" id="TEL:Route:8135_1">
+              <Name>Fjalestad-Fjone-Treungen</Name>
+              <ShortName>Fjalestad-Fjone-Treungen</ShortName>
+              <LineRef ref="TEL:Line:8135" version="2024051333932"></LineRef>
+              <DirectionType>outbound</DirectionType>
+              <pointsInSequence>
+                <PointOnRoute order="1" version="2024051333932" id="TEL:PointOnRoute:3768657">
+                  <RoutePointRef ref="TEL:RoutePoint:5149"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="2" version="2024051333932" id="TEL:PointOnRoute:3768658">
+                  <RoutePointRef ref="TEL:RoutePoint:7030"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="3" version="2024051333932" id="TEL:PointOnRoute:3768659">
+                  <RoutePointRef ref="TEL:RoutePoint:6463"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="4" version="2024051333932" id="TEL:PointOnRoute:3768660">
+                  <RoutePointRef ref="TEL:RoutePoint:5150"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="5" version="2024051333932" id="TEL:PointOnRoute:3768661">
+                  <RoutePointRef ref="TEL:RoutePoint:7377"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="6" version="2024051333932" id="TEL:PointOnRoute:3768662">
+                  <RoutePointRef ref="TEL:RoutePoint:6714"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="7" version="2024051333932" id="TEL:PointOnRoute:3768663">
+                  <RoutePointRef ref="TEL:RoutePoint:6624"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="8" version="2024051333932" id="TEL:PointOnRoute:3768664">
+                  <RoutePointRef ref="TEL:RoutePoint:6991"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="9" version="2024051333932" id="TEL:PointOnRoute:3768665">
+                  <RoutePointRef ref="TEL:RoutePoint:6815"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="10" version="2024051333932" id="TEL:PointOnRoute:3768666">
+                  <RoutePointRef ref="TEL:RoutePoint:6816"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="11" version="2024051333932" id="TEL:PointOnRoute:3768667">
+                  <RoutePointRef ref="TEL:RoutePoint:7024"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="12" version="2024051333932" id="TEL:PointOnRoute:3768668">
+                  <RoutePointRef ref="TEL:RoutePoint:7236"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="13" version="2024051333932" id="TEL:PointOnRoute:3768669">
+                  <RoutePointRef ref="TEL:RoutePoint:6061"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="14" version="2024051333932" id="TEL:PointOnRoute:3768670">
+                  <RoutePointRef ref="TEL:RoutePoint:1634"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="15" version="2024051333932" id="TEL:PointOnRoute:3768671">
+                  <RoutePointRef ref="TEL:RoutePoint:6771"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="16" version="2024051333932" id="TEL:PointOnRoute:3768672">
+                  <RoutePointRef ref="TEL:RoutePoint:1633"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="17" version="2024051333932" id="TEL:PointOnRoute:3768673">
+                  <RoutePointRef ref="TEL:RoutePoint:1635"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="18" version="2024051333932" id="TEL:PointOnRoute:3768674">
+                  <RoutePointRef ref="TEL:RoutePoint:7235"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="19" version="2024051333932" id="TEL:PointOnRoute:3768675">
+                  <RoutePointRef ref="TEL:RoutePoint:1574"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="20" version="2024051333932" id="TEL:PointOnRoute:3768676">
+                  <RoutePointRef ref="TEL:RoutePoint:1576"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="21" version="2024051333932" id="TEL:PointOnRoute:3768677">
+                  <RoutePointRef ref="TEL:RoutePoint:6406"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="22" version="2024051333932" id="TEL:PointOnRoute:3768678">
+                  <RoutePointRef ref="TEL:RoutePoint:7378"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="23" version="2024051333932" id="TEL:PointOnRoute:3768679">
+                  <RoutePointRef ref="TEL:RoutePoint:6819"></RoutePointRef>
+                </PointOnRoute>
+              </pointsInSequence>
+            </Route>
+            <Route version="2024051333932" id="TEL:Route:8135_2">
+              <Name>Fjalestad-Fjone-Treungen</Name>
+              <ShortName>Fjalestad-Fjone-Treungen</ShortName>
+              <LineRef ref="TEL:Line:8135" version="2024051333932"></LineRef>
+              <DirectionType>outbound</DirectionType>
+              <pointsInSequence>
+                <PointOnRoute order="1" version="2024051333932" id="TEL:PointOnRoute:3768680">
+                  <RoutePointRef ref="TEL:RoutePoint:5149"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="2" version="2024051333932" id="TEL:PointOnRoute:3768681">
+                  <RoutePointRef ref="TEL:RoutePoint:7030"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="3" version="2024051333932" id="TEL:PointOnRoute:3768682">
+                  <RoutePointRef ref="TEL:RoutePoint:6463"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="4" version="2024051333932" id="TEL:PointOnRoute:3768683">
+                  <RoutePointRef ref="TEL:RoutePoint:5150"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="5" version="2024051333932" id="TEL:PointOnRoute:3768684">
+                  <RoutePointRef ref="TEL:RoutePoint:7377"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="6" version="2024051333932" id="TEL:PointOnRoute:3768685">
+                  <RoutePointRef ref="TEL:RoutePoint:6714"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="7" version="2024051333932" id="TEL:PointOnRoute:3768686">
+                  <RoutePointRef ref="TEL:RoutePoint:6624"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="8" version="2024051333932" id="TEL:PointOnRoute:3768687">
+                  <RoutePointRef ref="TEL:RoutePoint:6991"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="9" version="2024051333932" id="TEL:PointOnRoute:3768688">
+                  <RoutePointRef ref="TEL:RoutePoint:6815"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="10" version="2024051333932" id="TEL:PointOnRoute:3768689">
+                  <RoutePointRef ref="TEL:RoutePoint:6816"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="11" version="2024051333932" id="TEL:PointOnRoute:3768690">
+                  <RoutePointRef ref="TEL:RoutePoint:7024"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="12" version="2024051333932" id="TEL:PointOnRoute:3768691">
+                  <RoutePointRef ref="TEL:RoutePoint:7236"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="13" version="2024051333932" id="TEL:PointOnRoute:3768692">
+                  <RoutePointRef ref="TEL:RoutePoint:6061"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="14" version="2024051333932" id="TEL:PointOnRoute:3768693">
+                  <RoutePointRef ref="TEL:RoutePoint:1634"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="15" version="2024051333932" id="TEL:PointOnRoute:3768694">
+                  <RoutePointRef ref="TEL:RoutePoint:6771"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="16" version="2024051333932" id="TEL:PointOnRoute:3768695">
+                  <RoutePointRef ref="TEL:RoutePoint:1633"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="17" version="2024051333932" id="TEL:PointOnRoute:3768696">
+                  <RoutePointRef ref="TEL:RoutePoint:1635"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="18" version="2024051333932" id="TEL:PointOnRoute:3768697">
+                  <RoutePointRef ref="TEL:RoutePoint:7235"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="19" version="2024051333932" id="TEL:PointOnRoute:3768698">
+                  <RoutePointRef ref="TEL:RoutePoint:1574"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="20" version="2024051333932" id="TEL:PointOnRoute:3768699">
+                  <RoutePointRef ref="TEL:RoutePoint:1576"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="21" version="2024051333932" id="TEL:PointOnRoute:3768700">
+                  <RoutePointRef ref="TEL:RoutePoint:6406"></RoutePointRef>
+                </PointOnRoute>
+              </pointsInSequence>
+            </Route>
+            <Route version="2024051333932" id="TEL:Route:8135_3">
+              <Name>Treungen-Fjone-Fjalestad</Name>
+              <ShortName>Treungen-Fjone-Fjalestad</ShortName>
+              <LineRef ref="TEL:Line:8135" version="2024051333932"></LineRef>
+              <DirectionType>inbound</DirectionType>
+              <pointsInSequence>
+                <PointOnRoute order="1" version="2024051333932" id="TEL:PointOnRoute:3768701">
+                  <RoutePointRef ref="TEL:RoutePoint:6819"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="2" version="2024051333932" id="TEL:PointOnRoute:3768702">
+                  <RoutePointRef ref="TEL:RoutePoint:7378"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="3" version="2024051333932" id="TEL:PointOnRoute:3768703">
+                  <RoutePointRef ref="TEL:RoutePoint:6406"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="4" version="2024051333932" id="TEL:PointOnRoute:3768704">
+                  <RoutePointRef ref="TEL:RoutePoint:1577"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="5" version="2024051333932" id="TEL:PointOnRoute:3768705">
+                  <RoutePointRef ref="TEL:RoutePoint:1575"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="6" version="2024051333932" id="TEL:PointOnRoute:3768706">
+                  <RoutePointRef ref="TEL:RoutePoint:7236"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="7" version="2024051333932" id="TEL:PointOnRoute:3768707">
+                  <RoutePointRef ref="TEL:RoutePoint:6061"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="8" version="2024051333932" id="TEL:PointOnRoute:3768708">
+                  <RoutePointRef ref="TEL:RoutePoint:1634"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="9" version="2024051333932" id="TEL:PointOnRoute:3768709">
+                  <RoutePointRef ref="TEL:RoutePoint:6771"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="10" version="2024051333932" id="TEL:PointOnRoute:3768710">
+                  <RoutePointRef ref="TEL:RoutePoint:7025"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="11" version="2024051333932" id="TEL:PointOnRoute:3768711">
+                  <RoutePointRef ref="TEL:RoutePoint:6989"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="12" version="2024051333932" id="TEL:PointOnRoute:3768712">
+                  <RoutePointRef ref="TEL:RoutePoint:6988"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="13" version="2024051333932" id="TEL:PointOnRoute:3768713">
+                  <RoutePointRef ref="TEL:RoutePoint:6992"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="14" version="2024051333932" id="TEL:PointOnRoute:3768714">
+                  <RoutePointRef ref="TEL:RoutePoint:6987"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="15" version="2024051333932" id="TEL:PointOnRoute:3768715">
+                  <RoutePointRef ref="TEL:RoutePoint:6986"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="16" version="2024051333932" id="TEL:PointOnRoute:3768716">
+                  <RoutePointRef ref="TEL:RoutePoint:7377"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="17" version="2024051333932" id="TEL:PointOnRoute:3768717">
+                  <RoutePointRef ref="TEL:RoutePoint:6985"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="18" version="2024051333932" id="TEL:PointOnRoute:3768718">
+                  <RoutePointRef ref="TEL:RoutePoint:6990"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="19" version="2024051333932" id="TEL:PointOnRoute:3768719">
+                  <RoutePointRef ref="TEL:RoutePoint:7030"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="20" version="2024051333932" id="TEL:PointOnRoute:3768720">
+                  <RoutePointRef ref="TEL:RoutePoint:5149"></RoutePointRef>
+                </PointOnRoute>
+              </pointsInSequence>
+            </Route>
+            <Route version="2024051333932" id="TEL:Route:8135_4">
+              <Name>Treungen-Fjone-Fjalestad</Name>
+              <ShortName>Treungen-Fjone-Fjalestad</ShortName>
+              <LineRef ref="TEL:Line:8135" version="2024051333932"></LineRef>
+              <DirectionType>inbound</DirectionType>
+              <pointsInSequence>
+                <PointOnRoute order="1" version="2024051333932" id="TEL:PointOnRoute:3768721">
+                  <RoutePointRef ref="TEL:RoutePoint:6406"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="2" version="2024051333932" id="TEL:PointOnRoute:3768722">
+                  <RoutePointRef ref="TEL:RoutePoint:1577"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="3" version="2024051333932" id="TEL:PointOnRoute:3768723">
+                  <RoutePointRef ref="TEL:RoutePoint:1575"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="4" version="2024051333932" id="TEL:PointOnRoute:3768724">
+                  <RoutePointRef ref="TEL:RoutePoint:7236"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="5" version="2024051333932" id="TEL:PointOnRoute:3768725">
+                  <RoutePointRef ref="TEL:RoutePoint:6061"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="6" version="2024051333932" id="TEL:PointOnRoute:3768726">
+                  <RoutePointRef ref="TEL:RoutePoint:1634"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="7" version="2024051333932" id="TEL:PointOnRoute:3768727">
+                  <RoutePointRef ref="TEL:RoutePoint:6771"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="8" version="2024051333932" id="TEL:PointOnRoute:3768728">
+                  <RoutePointRef ref="TEL:RoutePoint:7025"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="9" version="2024051333932" id="TEL:PointOnRoute:3768729">
+                  <RoutePointRef ref="TEL:RoutePoint:6989"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="10" version="2024051333932" id="TEL:PointOnRoute:3768730">
+                  <RoutePointRef ref="TEL:RoutePoint:6988"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="11" version="2024051333932" id="TEL:PointOnRoute:3768731">
+                  <RoutePointRef ref="TEL:RoutePoint:6992"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="12" version="2024051333932" id="TEL:PointOnRoute:3768732">
+                  <RoutePointRef ref="TEL:RoutePoint:6987"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="13" version="2024051333932" id="TEL:PointOnRoute:3768733">
+                  <RoutePointRef ref="TEL:RoutePoint:6986"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="14" version="2024051333932" id="TEL:PointOnRoute:3768734">
+                  <RoutePointRef ref="TEL:RoutePoint:7377"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="15" version="2024051333932" id="TEL:PointOnRoute:3768735">
+                  <RoutePointRef ref="TEL:RoutePoint:6985"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="16" version="2024051333932" id="TEL:PointOnRoute:3768736">
+                  <RoutePointRef ref="TEL:RoutePoint:6990"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="17" version="2024051333932" id="TEL:PointOnRoute:3768737">
+                  <RoutePointRef ref="TEL:RoutePoint:7030"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="18" version="2024051333932" id="TEL:PointOnRoute:3768738">
+                  <RoutePointRef ref="TEL:RoutePoint:5149"></RoutePointRef>
+                </PointOnRoute>
+              </pointsInSequence>
+            </Route>
+          </routes>
+          <lines>
+            <Line version="2024051333932" id="TEL:Line:8135">
+              <Name>Fjalestad-Fjone-Treungen</Name>
+              <TransportMode>bus</TransportMode>
+              <TransportSubmode>
+                <BusSubmode>schoolBus</BusSubmode>
+              </TransportSubmode>
+              <PublicCode>135</PublicCode>
+              <PrivateCode>8135</PrivateCode>
+              <OperatorRef ref="TEL:Operator:82"></OperatorRef>
+              <RepresentedByGroupRef ref="TEL:Network:TFK"></RepresentedByGroupRef>
+            </Line>
+          </lines>
+          <journeyPatterns>
+            <JourneyPattern version="2024051333932" id="TEL:JourneyPattern:8135_1_1">
+              <Name>Fjalestad-Fjone-Treungen</Name>
+              <RouteRef ref="TEL:Route:8135_1" version="2024051333932"></RouteRef>
+              <pointsInSequence>
+                <StopPointInJourneyPattern order="1" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_1_1">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:5149"></ScheduledStopPointRef>
+                  <ForAlighting>false</ForAlighting>
+                  <DestinationDisplayRef ref="TEL:DestinationDisplay:1352"></DestinationDisplayRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="2" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_1_2">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:7030"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="3" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_1_3">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6463"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="4" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_1_4">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:5150"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="5" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_1_5">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:7377"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="6" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_1_6">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6714"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="7" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_1_7">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6624"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="8" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_1_8">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6991"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="9" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_1_9">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6815"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="10" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_1_10">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6816"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="11" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_1_11">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:7024"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="12" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_1_12">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:7236"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="13" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_1_13">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6061"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="14" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_1_14">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:1634"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="15" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_1_15">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6771"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="16" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_1_16">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:1633"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="17" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_1_17">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:1635"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="18" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_1_18">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:7235"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="19" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_1_19">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:1574"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="20" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_1_20">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:1576"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="21" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_1_21">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6406"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="22" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_1_22">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:7378"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="23" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_1_23">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6819"></ScheduledStopPointRef>
+                  <ForBoarding>false</ForBoarding>
+                </StopPointInJourneyPattern>
+              </pointsInSequence>
+              <linksInSequence>
+                <ServiceLinkInJourneyPattern order="1" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768739">
+                  <ServiceLinkRef ref="TEL:ServiceLink:5149-7030"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="2" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768741">
+                  <ServiceLinkRef ref="TEL:ServiceLink:7030-6463"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="3" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768743">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6463-5150"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="4" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768745">
+                  <ServiceLinkRef ref="TEL:ServiceLink:5150-7377"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="5" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768747">
+                  <ServiceLinkRef ref="TEL:ServiceLink:7377-6714"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="6" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768749">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6714-6624"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="7" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768751">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6624-6991"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="8" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768753">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6991-6815"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="9" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768755">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6815-6816"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="10" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768757">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6816-7024"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="11" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768759">
+                  <ServiceLinkRef ref="TEL:ServiceLink:7024-7236"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="12" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768761">
+                  <ServiceLinkRef ref="TEL:ServiceLink:7236-6061"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="13" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768763">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6061-1634"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="14" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768765">
+                  <ServiceLinkRef ref="TEL:ServiceLink:1634-6771"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="15" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768767">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6771-1633"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="16" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768769">
+                  <ServiceLinkRef ref="TEL:ServiceLink:1633-1635"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="17" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768771">
+                  <ServiceLinkRef ref="TEL:ServiceLink:1635-7235"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="18" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768773">
+                  <ServiceLinkRef ref="TEL:ServiceLink:7235-1574"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="19" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768775">
+                  <ServiceLinkRef ref="TEL:ServiceLink:1574-1576"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="20" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768776">
+                  <ServiceLinkRef ref="TEL:ServiceLink:1576-6406"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="21" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768777">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6406-7378"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="22" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768779">
+                  <ServiceLinkRef ref="TEL:ServiceLink:7378-6819"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+              </linksInSequence>
+            </JourneyPattern>
+            <JourneyPattern version="2024051333932" id="TEL:JourneyPattern:8135_1_2">
+              <Name>Fjalestad-Fjone-Treungen</Name>
+              <RouteRef ref="TEL:Route:8135_2" version="2024051333932"></RouteRef>
+              <pointsInSequence>
+                <StopPointInJourneyPattern order="1" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_2_1">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:5149"></ScheduledStopPointRef>
+                  <ForAlighting>false</ForAlighting>
+                  <DestinationDisplayRef ref="TEL:DestinationDisplay:1352"></DestinationDisplayRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="2" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_2_2">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:7030"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="3" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_2_3">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6463"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="4" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_2_4">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:5150"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="5" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_2_5">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:7377"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="6" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_2_6">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6714"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="7" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_2_7">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6624"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="8" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_2_8">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6991"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="9" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_2_9">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6815"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="10" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_2_10">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6816"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="11" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_2_11">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:7024"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="12" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_2_12">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:7236"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="13" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_2_13">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6061"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="14" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_2_14">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:1634"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="15" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_2_15">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6771"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="16" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_2_16">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:1633"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="17" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_2_17">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:1635"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="18" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_2_18">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:7235"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="19" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_2_19">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:1574"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="20" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_2_20">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:1576"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="21" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_1_2_21">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6406"></ScheduledStopPointRef>
+                  <ForBoarding>false</ForBoarding>
+                </StopPointInJourneyPattern>
+              </pointsInSequence>
+              <linksInSequence>
+                <ServiceLinkInJourneyPattern order="1" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768781">
+                  <ServiceLinkRef ref="TEL:ServiceLink:5149-7030"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="2" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768782">
+                  <ServiceLinkRef ref="TEL:ServiceLink:7030-6463"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="3" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768783">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6463-5150"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="4" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768784">
+                  <ServiceLinkRef ref="TEL:ServiceLink:5150-7377"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="5" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768785">
+                  <ServiceLinkRef ref="TEL:ServiceLink:7377-6714"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="6" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768786">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6714-6624"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="7" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768787">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6624-6991"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="8" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768788">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6991-6815"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="9" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768789">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6815-6816"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="10" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768790">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6816-7024"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="11" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768791">
+                  <ServiceLinkRef ref="TEL:ServiceLink:7024-7236"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="12" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768792">
+                  <ServiceLinkRef ref="TEL:ServiceLink:7236-6061"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="13" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768793">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6061-1634"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="14" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768794">
+                  <ServiceLinkRef ref="TEL:ServiceLink:1634-6771"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="15" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768795">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6771-1633"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="16" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768796">
+                  <ServiceLinkRef ref="TEL:ServiceLink:1633-1635"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="17" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768797">
+                  <ServiceLinkRef ref="TEL:ServiceLink:1635-7235"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="18" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768798">
+                  <ServiceLinkRef ref="TEL:ServiceLink:7235-1574"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="19" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768799">
+                  <ServiceLinkRef ref="TEL:ServiceLink:1574-1576"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="20" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768800">
+                  <ServiceLinkRef ref="TEL:ServiceLink:1576-6406"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+              </linksInSequence>
+            </JourneyPattern>
+            <JourneyPattern version="2024051333932" id="TEL:JourneyPattern:8135_2_1">
+              <Name>Treungen-Fjone-Fjalestad</Name>
+              <RouteRef ref="TEL:Route:8135_3" version="2024051333932"></RouteRef>
+              <pointsInSequence>
+                <StopPointInJourneyPattern order="1" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_1_1">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6819"></ScheduledStopPointRef>
+                  <ForAlighting>false</ForAlighting>
+                  <DestinationDisplayRef ref="TEL:DestinationDisplay:1352"></DestinationDisplayRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="2" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_1_2">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:7378"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="3" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_1_3">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6406"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="4" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_1_4">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:1577"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="5" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_1_5">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:1575"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="6" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_1_6">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:7236"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="7" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_1_7">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6061"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="8" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_1_8">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:1634"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="9" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_1_9">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6771"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="10" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_1_10">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:7025"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="11" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_1_11">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6989"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="12" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_1_12">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6988"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="13" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_1_13">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6992"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="14" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_1_14">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6987"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="15" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_1_15">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6986"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="16" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_1_16">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6985"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="17" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_1_17">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6990"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="18" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_1_18">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:7030"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="19" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_1_19">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:5149"></ScheduledStopPointRef>
+                  <ForBoarding>false</ForBoarding>
+                </StopPointInJourneyPattern>
+              </pointsInSequence>
+              <linksInSequence>
+                <ServiceLinkInJourneyPattern order="1" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768801">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6819-7378"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="2" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768802">
+                  <ServiceLinkRef ref="TEL:ServiceLink:7378-6406"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="3" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768803">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6406-1577"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="4" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768804">
+                  <ServiceLinkRef ref="TEL:ServiceLink:1577-1575"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="5" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768805">
+                  <ServiceLinkRef ref="TEL:ServiceLink:1575-7236"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="6" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768807">
+                  <ServiceLinkRef ref="TEL:ServiceLink:7236-6061"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="7" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768808">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6061-1634"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="8" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768809">
+                  <ServiceLinkRef ref="TEL:ServiceLink:1634-6771"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="9" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768810">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6771-7025"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="10" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768812">
+                  <ServiceLinkRef ref="TEL:ServiceLink:7025-6989"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="11" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768814">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6989-6988"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="12" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768816">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6988-6992"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="13" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768818">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6992-6987"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="14" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768820">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6987-6986"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="15" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768822">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6986-6985"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="16" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768824">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6985-6990"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="17" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768826">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6990-7030"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="18" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768828">
+                  <ServiceLinkRef ref="TEL:ServiceLink:7030-5149"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+              </linksInSequence>
+            </JourneyPattern>
+            <JourneyPattern version="2024051333932" id="TEL:JourneyPattern:8135_2_3">
+              <Name>Treungen-Fjone-Fjalestad</Name>
+              <RouteRef ref="TEL:Route:8135_3" version="2024051333932"></RouteRef>
+              <pointsInSequence>
+                <StopPointInJourneyPattern order="1" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_3_1">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6819"></ScheduledStopPointRef>
+                  <ForAlighting>false</ForAlighting>
+                  <DestinationDisplayRef ref="TEL:DestinationDisplay:1352"></DestinationDisplayRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="2" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_3_2">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:7378"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="3" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_3_3">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6406"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="4" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_3_4">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:1577"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="5" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_3_5">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:1575"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="6" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_3_6">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:7025"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="7" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_3_7">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6989"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="8" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_3_8">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6988"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="9" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_3_9">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6992"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="10" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_3_10">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6987"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="11" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_3_11">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6986"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="12" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_3_12">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:7377"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="13" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_3_13">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6985"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="14" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_3_14">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6990"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="15" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_3_15">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:7030"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="16" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_3_16">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:5149"></ScheduledStopPointRef>
+                  <ForBoarding>false</ForBoarding>
+                </StopPointInJourneyPattern>
+              </pointsInSequence>
+              <linksInSequence>
+                <ServiceLinkInJourneyPattern order="1" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768830">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6819-7378"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="2" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768831">
+                  <ServiceLinkRef ref="TEL:ServiceLink:7378-6406"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="3" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768832">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6406-1577"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="4" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768833">
+                  <ServiceLinkRef ref="TEL:ServiceLink:1577-1575"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="5" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768834">
+                  <ServiceLinkRef ref="TEL:ServiceLink:1575-7025"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="6" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768836">
+                  <ServiceLinkRef ref="TEL:ServiceLink:7025-6989"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="7" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768837">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6989-6988"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="8" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768838">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6988-6992"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="9" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768839">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6992-6987"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="10" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768840">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6987-6986"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="11" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768841">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6986-7377"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="12" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768843">
+                  <ServiceLinkRef ref="TEL:ServiceLink:7377-6985"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="13" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768845">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6985-6990"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="14" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768846">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6990-7030"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="15" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768847">
+                  <ServiceLinkRef ref="TEL:ServiceLink:7030-5149"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+              </linksInSequence>
+            </JourneyPattern>
+            <JourneyPattern version="2024051333932" id="TEL:JourneyPattern:8135_2_2">
+              <Name>Treungen-Fjone-Fjalestad</Name>
+              <RouteRef ref="TEL:Route:8135_4" version="2024051333932"></RouteRef>
+              <pointsInSequence>
+                <StopPointInJourneyPattern order="1" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_2_1">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6406"></ScheduledStopPointRef>
+                  <ForAlighting>false</ForAlighting>
+                  <DestinationDisplayRef ref="TEL:DestinationDisplay:1352"></DestinationDisplayRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="2" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_2_2">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:1577"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="3" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_2_3">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:1575"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="4" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_2_4">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:7236"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="5" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_2_5">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6061"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="6" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_2_6">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:1634"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="7" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_2_7">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6771"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="8" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_2_8">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:7025"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="9" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_2_9">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6989"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="10" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_2_10">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6988"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="11" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_2_11">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6992"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="12" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_2_12">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6987"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="13" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_2_13">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6986"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="14" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_2_14">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6985"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="15" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_2_15">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6990"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="16" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_2_16">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:7030"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="17" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_2_17">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:5149"></ScheduledStopPointRef>
+                  <ForBoarding>false</ForBoarding>
+                </StopPointInJourneyPattern>
+              </pointsInSequence>
+              <linksInSequence>
+                <ServiceLinkInJourneyPattern order="1" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768848">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6406-1577"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="2" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768849">
+                  <ServiceLinkRef ref="TEL:ServiceLink:1577-1575"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="3" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768850">
+                  <ServiceLinkRef ref="TEL:ServiceLink:1575-7236"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="4" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768851">
+                  <ServiceLinkRef ref="TEL:ServiceLink:7236-6061"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="5" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768852">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6061-1634"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="6" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768853">
+                  <ServiceLinkRef ref="TEL:ServiceLink:1634-6771"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="7" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768854">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6771-7025"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="8" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768855">
+                  <ServiceLinkRef ref="TEL:ServiceLink:7025-6989"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="9" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768856">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6989-6988"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="10" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768857">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6988-6992"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="11" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768858">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6992-6987"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="12" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768859">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6987-6986"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="13" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768860">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6986-6985"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="14" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768861">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6985-6990"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="15" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768862">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6990-7030"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="16" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768863">
+                  <ServiceLinkRef ref="TEL:ServiceLink:7030-5149"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+              </linksInSequence>
+            </JourneyPattern>
+            <JourneyPattern version="2024051333932" id="TEL:JourneyPattern:8135_2_4">
+              <Name>Treungen-Fjone-Fjalestad</Name>
+              <RouteRef ref="TEL:Route:8135_4" version="2024051333932"></RouteRef>
+              <pointsInSequence>
+                <StopPointInJourneyPattern order="1" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_4_1">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6406"></ScheduledStopPointRef>
+                  <ForAlighting>false</ForAlighting>
+                  <DestinationDisplayRef ref="TEL:DestinationDisplay:1352"></DestinationDisplayRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="2" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_4_2">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:1577"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="3" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_4_3">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:1575"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="4" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_4_4">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:7025"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="5" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_4_5">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6989"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="6" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_4_6">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6988"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="7" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_4_7">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6992"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="8" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_4_8">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6987"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="9" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_4_9">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6986"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="10" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_4_10">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:7377"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="11" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_4_11">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6985"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="12" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_4_12">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6990"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="13" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_4_13">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:7030"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="14" version="2024051333932" id="TEL:StopPointInJourneyPattern:8135_2_4_14">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:5149"></ScheduledStopPointRef>
+                  <ForBoarding>false</ForBoarding>
+                </StopPointInJourneyPattern>
+              </pointsInSequence>
+              <linksInSequence>
+                <ServiceLinkInJourneyPattern order="1" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768864">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6406-1577"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="2" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768865">
+                  <ServiceLinkRef ref="TEL:ServiceLink:1577-1575"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="3" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768866">
+                  <ServiceLinkRef ref="TEL:ServiceLink:1575-7025"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="4" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768867">
+                  <ServiceLinkRef ref="TEL:ServiceLink:7025-6989"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="5" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768868">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6989-6988"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="6" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768869">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6988-6992"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="7" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768870">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6992-6987"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="8" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768871">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6987-6986"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="9" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768872">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6986-7377"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="10" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768873">
+                  <ServiceLinkRef ref="TEL:ServiceLink:7377-6985"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="11" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768874">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6985-6990"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="12" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768875">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6990-7030"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="13" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3768876">
+                  <ServiceLinkRef ref="TEL:ServiceLink:7030-5149"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+              </linksInSequence>
+            </JourneyPattern>
+          </journeyPatterns>
+        </ServiceFrame>
+        <TimetableFrame version="1" id="TEL:TimetableFrame:3769044">
+          <vehicleJourneys>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8135_1_1">
+              <Name>Fjone</Name>
+              <PrivateCode>1021</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-S-MoTuWeThFr"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8135_1_1" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:82"></OperatorRef>
+              <LineRef ref="TEL:Line:8135" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_1_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_1_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>07:30:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_1_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_1_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>07:37:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_1_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_1_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>07:37:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_1_4">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_1_4" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>07:38:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_1_5">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_1_5" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>07:45:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_1_6">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_1_6" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>07:52:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_1_7">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_1_7" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>07:55:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_1_8">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_1_8" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>07:56:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_1_9">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_1_9" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>07:59:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_1_10">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_1_10" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>08:07:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_1_11">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_1_11" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>08:15:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_1_12">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_1_12" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>08:17:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_1_13">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_1_13" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>08:18:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_1_14">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_1_14" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>08:19:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_1_15">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_1_15" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>08:20:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_1_16">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_1_16" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>08:21:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_1_17">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_1_17" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>08:22:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_1_18">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_1_18" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>08:23:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_1_19">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_1_19" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>08:26:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_1_20">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_1_20" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>08:27:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_1_21">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_1_21" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>08:28:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_1_22">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_1_22" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>08:32:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_1_23">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_1_23" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>08:42:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8135_1_3">
+              <Name>Fjone</Name>
+              <PrivateCode>1021</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-S-MoTuWeThFr_9"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8135_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:82"></OperatorRef>
+              <LineRef ref="TEL:Line:8135" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_3_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>07:40:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_3_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>07:47:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_3_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>07:47:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_3_4">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_2_4" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>07:48:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_3_5">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_2_5" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>07:55:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_3_6">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_2_6" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>08:02:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_3_7">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_2_7" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>08:05:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_3_8">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_2_8" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>08:06:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_3_9">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_2_9" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>08:09:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_3_10">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_2_10" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>08:17:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_3_11">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_2_11" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>08:25:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_3_12">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_2_12" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>08:27:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_3_13">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_2_13" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>08:28:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_3_14">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_2_14" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>08:29:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_3_15">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_2_15" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>08:30:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_3_16">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_2_16" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>08:31:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_3_17">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_2_17" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>08:32:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_3_18">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_2_18" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>08:33:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_3_19">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_2_19" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>08:36:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_3_20">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_2_20" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>08:37:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_1_3_21">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_1_2_21" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>08:38:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8135_2_4">
+              <Name>Fjone</Name>
+              <PrivateCode>1022</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-S-We"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8135_2_1" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:82"></OperatorRef>
+              <LineRef ref="TEL:Line:8135" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_4_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_1_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>12:32:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_4_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_1_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>12:42:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_4_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_1_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>12:47:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_4_4">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_1_4" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>12:47:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_4_5">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_1_5" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>12:48:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_4_6">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_1_6" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>12:49:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_4_7">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_1_7" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>12:50:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_4_8">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_1_8" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>12:51:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_4_9">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_1_9" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>12:52:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_4_10">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_1_10" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>12:55:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_4_11">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_1_11" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>13:02:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_4_12">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_1_12" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>13:10:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_4_13">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_1_13" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>13:13:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_4_14">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_1_14" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>13:15:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_4_15">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_1_15" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>13:17:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_4_16">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_1_16" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>13:20:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_4_17">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_1_17" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>13:21:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_4_18">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_1_18" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>13:22:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_4_19">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_1_19" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>13:35:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8135_2_7">
+              <Name>Fjone</Name>
+              <PrivateCode>1042</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-S-MoTuThFr"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8135_2_3" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:82"></OperatorRef>
+              <LineRef ref="TEL:Line:8135" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_7_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_3_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:17:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_7_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_3_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:27:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_7_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_3_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:32:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_7_4">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_3_4" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:32:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_7_5">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_3_5" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:33:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_7_6">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_3_6" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:35:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_7_7">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_3_7" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:42:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_7_8">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_3_8" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:50:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_7_9">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_3_9" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:53:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_7_10">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_3_10" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:55:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_7_11">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_3_11" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:57:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_7_12">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_3_12" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>15:00:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_7_13">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_3_13" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>15:05:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_7_14">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_3_14" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>15:06:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_7_15">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_3_15" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>15:07:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_7_16">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_3_16" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>15:20:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8135_2_10">
+              <Name>Fjone</Name>
+              <PrivateCode>1062</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-S-We"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8135_2_3" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:82"></OperatorRef>
+              <LineRef ref="TEL:Line:8135" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_10_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_3_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:47:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_10_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_3_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:57:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_10_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_3_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>15:02:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_10_4">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_3_4" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>15:02:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_10_5">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_3_5" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>15:03:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_10_6">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_3_6" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>15:05:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_10_7">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_3_7" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>15:12:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_10_8">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_3_8" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>15:20:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_10_9">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_3_9" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>15:23:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_10_10">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_3_10" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>15:25:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_10_11">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_3_11" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>15:27:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_10_12">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_3_12" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>15:30:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_10_13">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_3_13" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>15:35:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_10_14">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_3_14" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>15:36:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_10_15">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_3_15" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>15:37:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_10_16">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_3_16" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>15:50:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8135_2_6">
+              <Name>Fjone</Name>
+              <PrivateCode>1022</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-S-We_5"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8135_2_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:82"></OperatorRef>
+              <LineRef ref="TEL:Line:8135" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_6_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>12:37:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_6_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>12:37:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_6_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>12:38:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_6_4">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_2_4" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>12:39:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_6_5">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_2_5" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>12:40:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_6_6">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_2_6" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>12:41:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_6_7">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_2_7" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>12:42:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_6_8">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_2_8" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>12:45:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_6_9">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_2_9" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>12:52:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_6_10">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_2_10" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>13:00:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_6_11">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_2_11" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>13:03:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_6_12">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_2_12" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>13:05:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_6_13">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_2_13" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>13:07:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_6_14">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_2_14" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>13:10:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_6_15">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_2_15" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>13:11:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_6_16">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_2_16" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>13:12:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_6_17">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_2_17" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>13:25:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8135_2_9">
+              <Name>Fjone</Name>
+              <PrivateCode>1042</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-S-MoTuThFr_8"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8135_2_4" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:82"></OperatorRef>
+              <LineRef ref="TEL:Line:8135" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_9_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_4_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:22:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_9_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_4_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:22:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_9_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_4_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:23:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_9_4">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_4_4" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:25:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_9_5">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_4_5" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:32:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_9_6">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_4_6" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:40:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_9_7">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_4_7" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:43:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_9_8">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_4_8" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:45:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_9_9">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_4_9" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:47:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_9_10">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_4_10" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:50:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_9_11">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_4_11" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:55:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_9_12">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_4_12" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:56:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_9_13">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_4_13" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:57:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_9_14">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_4_14" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>15:10:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8135_2_12">
+              <Name>Fjone</Name>
+              <PrivateCode>1062</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-S-We_5"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8135_2_4" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:82"></OperatorRef>
+              <LineRef ref="TEL:Line:8135" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_12_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_4_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:52:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_12_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_4_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:52:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_12_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_4_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:53:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_12_4">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_4_4" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:55:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_12_5">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_4_5" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>15:02:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_12_6">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_4_6" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>15:10:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_12_7">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_4_7" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>15:13:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_12_8">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_4_8" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>15:15:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_12_9">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_4_9" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>15:17:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_12_10">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_4_10" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>15:20:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_12_11">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_4_11" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>15:25:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_12_12">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_4_12" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>15:26:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_12_13">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_4_13" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>15:27:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8135_2_12_14">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8135_2_4_14" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>15:40:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+          </vehicleJourneys>
+          <noticeAssignments>
+            <NoticeAssignment order="24" version="1" id="TEL:NoticeAssignment:3768925">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_3_1" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="114" version="1" id="TEL:NoticeAssignment:3769015">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_9_3" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="121" version="1" id="TEL:NoticeAssignment:3769022">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_9_10" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="33" version="1" id="TEL:NoticeAssignment:3768934">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_3_10" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="89" version="1" id="TEL:NoticeAssignment:3768990">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_10_11" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="17" version="1" id="TEL:NoticeAssignment:3768918">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_1_17" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="45" version="1" id="TEL:NoticeAssignment:3768946">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_4_1" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="3" version="1" id="TEL:NoticeAssignment:3768904">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_1_3" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="87" version="1" id="TEL:NoticeAssignment:3768988">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_10_9" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="11" version="1" id="TEL:NoticeAssignment:3768912">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_1_11" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="46" version="1" id="TEL:NoticeAssignment:3768947">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_4_2" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="94" version="1" id="TEL:NoticeAssignment:3768995">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_10_16" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="78" version="1" id="TEL:NoticeAssignment:3768979">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_7_15" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="35" version="1" id="TEL:NoticeAssignment:3768936">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_3_12" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="93" version="1" id="TEL:NoticeAssignment:3768994">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_10_15" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="84" version="1" id="TEL:NoticeAssignment:3768985">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_10_6" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="2" version="1" id="TEL:NoticeAssignment:3768903">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_1_2" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="130" version="1" id="TEL:NoticeAssignment:3769031">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_12_5" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="128" version="1" id="TEL:NoticeAssignment:3769029">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_12_3" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="26" version="1" id="TEL:NoticeAssignment:3768927">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_3_3" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="38" version="1" id="TEL:NoticeAssignment:3768939">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_3_15" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="96" version="1" id="TEL:NoticeAssignment:3768997">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_6_2" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="21" version="1" id="TEL:NoticeAssignment:3768922">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_1_21" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="68" version="1" id="TEL:NoticeAssignment:3768969">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_7_5" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="72" version="1" id="TEL:NoticeAssignment:3768973">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_7_9" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="20" version="1" id="TEL:NoticeAssignment:3768921">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_1_20" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="25" version="1" id="TEL:NoticeAssignment:3768926">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_3_2" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="55" version="1" id="TEL:NoticeAssignment:3768956">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_4_11" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="135" version="1" id="TEL:NoticeAssignment:3769036">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_12_10" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="103" version="1" id="TEL:NoticeAssignment:3769004">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_6_9" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="65" version="1" id="TEL:NoticeAssignment:3768966">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_7_2" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="127" version="1" id="TEL:NoticeAssignment:3769028">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_12_2" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="15" version="1" id="TEL:NoticeAssignment:3768916">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_1_15" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="107" version="1" id="TEL:NoticeAssignment:3769008">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_6_13" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="5" version="1" id="TEL:NoticeAssignment:3768906">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_1_5" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="16" version="1" id="TEL:NoticeAssignment:3768917">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_1_16" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="1" version="1" id="TEL:NoticeAssignment:3768902">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_1_1" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="90" version="1" id="TEL:NoticeAssignment:3768991">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_10_12" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="100" version="1" id="TEL:NoticeAssignment:3769001">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_6_6" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="60" version="1" id="TEL:NoticeAssignment:3768961">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_4_16" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="50" version="1" id="TEL:NoticeAssignment:3768951">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_4_6" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="117" version="1" id="TEL:NoticeAssignment:3769018">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_9_6" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="98" version="1" id="TEL:NoticeAssignment:3768999">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_6_4" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="116" version="1" id="TEL:NoticeAssignment:3769017">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_9_5" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="134" version="1" id="TEL:NoticeAssignment:3769035">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_12_9" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="76" version="1" id="TEL:NoticeAssignment:3768977">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_7_13" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="28" version="1" id="TEL:NoticeAssignment:3768929">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_3_5" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="4" version="1" id="TEL:NoticeAssignment:3768905">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_1_4" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="124" version="1" id="TEL:NoticeAssignment:3769025">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_9_13" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="133" version="1" id="TEL:NoticeAssignment:3769034">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_12_8" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="113" version="1" id="TEL:NoticeAssignment:3769014">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_9_2" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="10" version="1" id="TEL:NoticeAssignment:3768911">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_1_10" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="118" version="1" id="TEL:NoticeAssignment:3769019">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_9_7" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="13" version="1" id="TEL:NoticeAssignment:3768914">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_1_13" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="51" version="1" id="TEL:NoticeAssignment:3768952">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_4_7" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="86" version="1" id="TEL:NoticeAssignment:3768987">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_10_8" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="7" version="1" id="TEL:NoticeAssignment:3768908">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_1_7" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="52" version="1" id="TEL:NoticeAssignment:3768953">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_4_8" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="81" version="1" id="TEL:NoticeAssignment:3768982">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_10_3" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="29" version="1" id="TEL:NoticeAssignment:3768930">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_3_6" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="42" version="1" id="TEL:NoticeAssignment:3768943">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_3_19" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="99" version="1" id="TEL:NoticeAssignment:3769000">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_6_5" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="69" version="1" id="TEL:NoticeAssignment:3768970">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_7_6" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="136" version="1" id="TEL:NoticeAssignment:3769037">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_12_11" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="9" version="1" id="TEL:NoticeAssignment:3768910">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_1_9" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="122" version="1" id="TEL:NoticeAssignment:3769023">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_9_11" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="44" version="1" id="TEL:NoticeAssignment:3768945">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_3_21" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="30" version="1" id="TEL:NoticeAssignment:3768931">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_3_7" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="59" version="1" id="TEL:NoticeAssignment:3768960">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_4_15" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="14" version="1" id="TEL:NoticeAssignment:3768915">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_1_14" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="37" version="1" id="TEL:NoticeAssignment:3768938">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_3_14" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="58" version="1" id="TEL:NoticeAssignment:3768959">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_4_14" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="73" version="1" id="TEL:NoticeAssignment:3768974">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_7_10" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="41" version="1" id="TEL:NoticeAssignment:3768942">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_3_18" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="108" version="1" id="TEL:NoticeAssignment:3769009">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_6_14" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="48" version="1" id="TEL:NoticeAssignment:3768949">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_4_4" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="112" version="1" id="TEL:NoticeAssignment:3769013">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_9_1" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="62" version="1" id="TEL:NoticeAssignment:3768963">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_4_18" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="129" version="1" id="TEL:NoticeAssignment:3769030">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_12_4" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="131" version="1" id="TEL:NoticeAssignment:3769032">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_12_6" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="74" version="1" id="TEL:NoticeAssignment:3768975">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_7_11" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="36" version="1" id="TEL:NoticeAssignment:3768937">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_3_13" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="61" version="1" id="TEL:NoticeAssignment:3768962">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_4_17" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="95" version="1" id="TEL:NoticeAssignment:3768996">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_6_1" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="18" version="1" id="TEL:NoticeAssignment:3768919">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_1_18" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="115" version="1" id="TEL:NoticeAssignment:3769016">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_9_4" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="6" version="1" id="TEL:NoticeAssignment:3768907">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_1_6" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="22" version="1" id="TEL:NoticeAssignment:3768923">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_1_22" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="119" version="1" id="TEL:NoticeAssignment:3769020">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_9_8" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="88" version="1" id="TEL:NoticeAssignment:3768989">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_10_10" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="126" version="1" id="TEL:NoticeAssignment:3769027">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_12_1" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="106" version="1" id="TEL:NoticeAssignment:3769007">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_6_12" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="23" version="1" id="TEL:NoticeAssignment:3768924">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_1_23" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="71" version="1" id="TEL:NoticeAssignment:3768972">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_7_8" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="132" version="1" id="TEL:NoticeAssignment:3769033">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_12_7" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="111" version="1" id="TEL:NoticeAssignment:3769012">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_6_17" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="77" version="1" id="TEL:NoticeAssignment:3768978">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_7_14" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="56" version="1" id="TEL:NoticeAssignment:3768957">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_4_12" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="12" version="1" id="TEL:NoticeAssignment:3768913">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_1_12" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="57" version="1" id="TEL:NoticeAssignment:3768958">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_4_13" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="85" version="1" id="TEL:NoticeAssignment:3768986">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_10_7" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="47" version="1" id="TEL:NoticeAssignment:3768948">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_4_3" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="49" version="1" id="TEL:NoticeAssignment:3768950">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_4_5" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="92" version="1" id="TEL:NoticeAssignment:3768993">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_10_14" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="139" version="1" id="TEL:NoticeAssignment:3769040">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_12_14" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="97" version="1" id="TEL:NoticeAssignment:3768998">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_6_3" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="79" version="1" id="TEL:NoticeAssignment:3768980">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_7_16" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="101" version="1" id="TEL:NoticeAssignment:3769002">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_6_7" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="67" version="1" id="TEL:NoticeAssignment:3768968">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_7_4" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="32" version="1" id="TEL:NoticeAssignment:3768933">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_3_9" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="102" version="1" id="TEL:NoticeAssignment:3769003">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_6_8" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="8" version="1" id="TEL:NoticeAssignment:3768909">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_1_8" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="109" version="1" id="TEL:NoticeAssignment:3769010">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_6_15" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="120" version="1" id="TEL:NoticeAssignment:3769021">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_9_9" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="83" version="1" id="TEL:NoticeAssignment:3768984">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_10_5" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="43" version="1" id="TEL:NoticeAssignment:3768944">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_3_20" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="137" version="1" id="TEL:NoticeAssignment:3769038">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_12_12" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="125" version="1" id="TEL:NoticeAssignment:3769026">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_9_14" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="66" version="1" id="TEL:NoticeAssignment:3768967">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_7_3" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="110" version="1" id="TEL:NoticeAssignment:3769011">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_6_16" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="123" version="1" id="TEL:NoticeAssignment:3769024">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_9_12" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="63" version="1" id="TEL:NoticeAssignment:3768964">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_4_19" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="64" version="1" id="TEL:NoticeAssignment:3768965">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_7_1" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="34" version="1" id="TEL:NoticeAssignment:3768935">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_3_11" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="19" version="1" id="TEL:NoticeAssignment:3768920">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_1_19" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="104" version="1" id="TEL:NoticeAssignment:3769005">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_6_10" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="27" version="1" id="TEL:NoticeAssignment:3768928">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_3_4" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="105" version="1" id="TEL:NoticeAssignment:3769006">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_6_11" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="80" version="1" id="TEL:NoticeAssignment:3768981">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_10_1" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="53" version="1" id="TEL:NoticeAssignment:3768954">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_4_9" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="40" version="1" id="TEL:NoticeAssignment:3768941">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_3_17" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="54" version="1" id="TEL:NoticeAssignment:3768955">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_4_10" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="70" version="1" id="TEL:NoticeAssignment:3768971">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_7_7" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="138" version="1" id="TEL:NoticeAssignment:3769039">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_12_13" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="31" version="1" id="TEL:NoticeAssignment:3768932">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_3_8" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="75" version="1" id="TEL:NoticeAssignment:3768976">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_7_12" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="91" version="1" id="TEL:NoticeAssignment:3768992">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_10_13" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="39" version="1" id="TEL:NoticeAssignment:3768940">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_1_3_16" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="82" version="1" id="TEL:NoticeAssignment:3768983">
+              <NoticeRef ref="TEL:Notice:50"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8135_2_10_4" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+          </noticeAssignments>
+        </TimetableFrame>
+      </frames>
+    </CompositeFrame>
+  </dataObjects>
+</PublicationDelivery>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PublicationDelivery xmlns="http://www.netex.org.uk/netex" xmlns:ns2="http://www.opengis.net/gml/3.2" xmlns:ns3="http://www.siri.org.uk/siri" version="1.11:NO-NeTEx-networktimetable:1.3">
+    <PublicationTimestamp>2023-02-14T14:36:48.669</PublicationTimestamp>
+    <ParticipantRef>Farte__Telemark_</ParticipantRef>
+    <Description>Flexible lines</Description>
+    <dataObjects>
+        <CompositeFrame created="2023-02-14T14:36:48.669" version="1" id="TEL:CompositeFrame:2">
+            <validityConditions>
+                <AvailabilityCondition version="1" id="TEL:AvailabilityCondition:2">
+                    <FromDate>2022-08-15T00:00:00</FromDate>
+                    <ToDate>2023-06-16T00:00:00</ToDate>
+                </AvailabilityCondition>
+            </validityConditions>
+            <codespaces>
+                <Codespace id="tel">
+                    <Xmlns>TEL</Xmlns>
+                    <XmlnsUrl>http://www.rutebanken.org/ns/tel</XmlnsUrl>
+                </Codespace>
+                <Codespace id="nsr">
+                    <Xmlns>NSR</Xmlns>
+                    <XmlnsUrl>http://www.rutebanken.org/ns/nsr</XmlnsUrl>
+                </Codespace>
+            </codespaces>
+            <FrameDefaults>
+                <DefaultLocale>
+                    <TimeZone>Europe/Oslo</TimeZone>
+                    <DefaultLanguage>no</DefaultLanguage>
+                </DefaultLocale>
+            </FrameDefaults>
+            <frames>
+                <ResourceFrame version="1" id="TEL:ResourceFrame:1">
+                    <organisations>
+                        <Authority version="5" id="TEL:Authority:TFK_ID">
+                            <Name>Farte</Name>
+                            <LegalName>N/A</LegalName>
+                            <ContactDetails>
+<Email></Email>
+<Phone></Phone>
+<Url>https://www.farte.no/</Url>
+                            </ContactDetails>
+                        </Authority>
+                        <Operator version="4" id="VYX:Operator:VyTravel">
+                            <Name>Vy Buss Norge</Name>
+                            <LegalName>Vy Buss Norge</LegalName>
+                            <ContactDetails>
+<Url>https://www.vybuss.no/</Url>
+                            </ContactDetails>
+                            <CustomerServiceContactDetails>
+<Url>https://www.vybuss.no/</Url>
+                            </CustomerServiceContactDetails>
+                        </Operator>
+                    </organisations>
+                </ResourceFrame>
+                <SiteFrame version="1" id="TEL:SiteFrame:1">
+                    <flexibleStopPlaces>
+                        <FlexibleStopPlace version="3" id="TEL:FlexibleStopPlace:33d68da6-7d5a-460d-b33b-cd86c4ac7a1c">
+                            <Name>Bø</Name>
+                            <TransportMode>bus</TransportMode>
+                            <areas>
+<FlexibleArea version="3" id="TEL:FlexibleArea:33d68da6-7d5a-460d-b33b-cd86c4ac7a1c">
+    <ns2:Polygon srsName="ESPG:4326" srsDimension="2" ns2:id="P1">
+        <ns2:exterior>
+            <ns2:LinearRing>
+                <ns2:posList>59.45173678565 9.08698908307 59.45278439541 9.06706491574 59.44440260845 9.05177827013 59.44012360389 9.04971714937 59.4394514031 9.0439367187 59.43972962648 9.02981753826 59.43349941248 9.03153417349 59.43185165383 9.03365848303 59.43105502651 9.03925893545 59.42448753747 9.03614810438 59.41679788357 9.03649162451 59.41199096293 9.03082354243 59.41043986024 9.02351438463 59.40836236579 9.02214109361 59.40595949752 9.02240729933 59.40368649282 9.0272165811 59.40489504134 9.03280555665 59.40598988328 9.03707026362 59.4065796129 9.04814241171 59.40370734106 9.06421420813 59.40106360559 9.06294267423 59.39847546741 9.06290529013 59.39645459014 9.07080171347 59.39618148937 9.07378432989 59.39751420028 9.07788274527 59.40320494149 9.08361194372 59.40548752302 9.09358976126 59.40963727727 9.09352538824 59.41105681333 9.09277436972 59.41217056152 9.09159419775 59.41272742188 9.09168002844 59.41363366524 9.09298894644 59.4143651934 9.09453389883 59.41480191909 9.09470556021 59.41545699707 9.09419057608 59.41637408496 9.09236667395 59.41790250958 9.08856866598 59.45173678565 9.08698908307</ns2:posList>
+            </ns2:LinearRing>
+        </ns2:exterior>
+    </ns2:Polygon>
+</FlexibleArea>
+                            </areas>
+                        </FlexibleStopPlace>
+                    </flexibleStopPlaces>
+                </SiteFrame>
+                <ServiceFrame version="1" id="TEL:ServiceFrame:2">
+                    <Network version="0" id="TEL:Network:f731068f-0393-4a5f-944b-9458cacb0fb7">
+                        <Name>TEL</Name>
+                        <AuthorityRef ref="TEL:Authority:TFK_ID" version="5"/>
+                    </Network>
+                    <routePoints>
+                        <RoutePoint version="3" id="TEL:RoutePoint:33d68da6-7d5a-460d-b33b-cd86c4ac7a1c">
+                            <projections>
+<PointProjection version="3" id="TEL:PointProjection:33d68da6-7d5a-460d-b33b-cd86c4ac7a1c">
+    <ProjectToPointRef ref="TEL:ScheduledStopPoint:33d68da6-7d5a-460d-b33b-cd86c4ac7a1c" version="3"/>
+</PointProjection>
+                            </projections>
+                        </RoutePoint>
+                    </routePoints>
+                    <destinationDisplays>
+                        <DestinationDisplay version="0" id="TEL:DestinationDisplay:242fedbc-d0d0-4516-93f9-03fdd08ef345">
+                            <FrontText>Bø</FrontText>
+                        </DestinationDisplay>
+                    </destinationDisplays>
+                    <scheduledStopPoints>
+                        <ScheduledStopPoint version="3" id="TEL:ScheduledStopPoint:33d68da6-7d5a-460d-b33b-cd86c4ac7a1c"/>
+                    </scheduledStopPoints>
+                    <stopAssignments>
+                        <FlexibleStopAssignment version="3" id="TEL:FlexibleStopAssignment:33d68da6-7d5a-460d-b33b-cd86c4ac7a1c">
+                            <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:33d68da6-7d5a-460d-b33b-cd86c4ac7a1c" version="3"/>
+                            <FlexibleStopPlaceRef ref="TEL:FlexibleStopPlace:33d68da6-7d5a-460d-b33b-cd86c4ac7a1c" version="3"/>
+                        </FlexibleStopAssignment>
+                    </stopAssignments>
+                </ServiceFrame>
+                <ServiceCalendarFrame version="1" id="TEL:ServiceCalendarFrame:1">
+                    <dayTypes>
+                        <DayType version="30" id="TEL:DayType:8aa851d8-70c2-4c7c-83d2-25d4e9bf2cfa">
+                            <properties>
+<PropertyOfDay>
+    <DaysOfWeek>Tuesday Wednesday Thursday Friday Monday</DaysOfWeek>
+</PropertyOfDay>
+                            </properties>
+                        </DayType>
+                        <DayType version="25" id="TEL:DayType:febebd5e-a1be-4f82-a22d-6d6026296741">
+                            <properties>
+<PropertyOfDay>
+    <DaysOfWeek>Monday Wednesday Friday</DaysOfWeek>
+</PropertyOfDay>
+                            </properties>
+                        </DayType>
+                    </dayTypes>
+                    <operatingPeriods>
+                        <OperatingPeriod version="0" id="TEL:OperatingPeriod:1">
+                            <FromDate>2022-08-15T00:00:00</FromDate>
+                            <ToDate>2023-06-16T00:00:00</ToDate>
+                        </OperatingPeriod>
+                        <OperatingPeriod version="0" id="TEL:OperatingPeriod:3">
+                            <FromDate>2022-08-15T00:00:00</FromDate>
+                            <ToDate>2023-06-16T00:00:00</ToDate>
+                        </OperatingPeriod>
+                        <OperatingPeriod version="0" id="TEL:OperatingPeriod:2">
+                            <FromDate>2022-12-26T00:00:00</FromDate>
+                            <ToDate>2022-12-26T00:00:00</ToDate>
+                        </OperatingPeriod>
+                        <OperatingPeriod version="0" id="TEL:OperatingPeriod:4">
+                            <FromDate>2022-12-26T00:00:00</FromDate>
+                            <ToDate>2022-12-26T00:00:00</ToDate>
+                        </OperatingPeriod>
+                    </operatingPeriods>
+                    <dayTypeAssignments>
+                        <DayTypeAssignment order="1" version="0" id="TEL:DayTypeAssignment:1">
+                            <OperatingPeriodRef ref="TEL:OperatingPeriod:1" version="0"/>
+                            <DayTypeRef ref="TEL:DayType:8aa851d8-70c2-4c7c-83d2-25d4e9bf2cfa" version="30"/>
+                            <isAvailable>true</isAvailable>
+                        </DayTypeAssignment>
+                        <DayTypeAssignment order="2" version="0" id="TEL:DayTypeAssignment:2">
+                            <OperatingPeriodRef ref="TEL:OperatingPeriod:2" version="0"/>
+                            <DayTypeRef ref="TEL:DayType:8aa851d8-70c2-4c7c-83d2-25d4e9bf2cfa" version="30"/>
+                            <isAvailable>false</isAvailable>
+                        </DayTypeAssignment>
+                        <DayTypeAssignment order="3" version="0" id="TEL:DayTypeAssignment:3">
+                            <OperatingPeriodRef ref="TEL:OperatingPeriod:3" version="0"/>
+                            <DayTypeRef ref="TEL:DayType:febebd5e-a1be-4f82-a22d-6d6026296741" version="25"/>
+                            <isAvailable>true</isAvailable>
+                        </DayTypeAssignment>
+                        <DayTypeAssignment order="4" version="0" id="TEL:DayTypeAssignment:4">
+                            <OperatingPeriodRef ref="TEL:OperatingPeriod:4" version="0"/>
+                            <DayTypeRef ref="TEL:DayType:febebd5e-a1be-4f82-a22d-6d6026296741" version="25"/>
+                            <isAvailable>false</isAvailable>
+                        </DayTypeAssignment>
+                    </dayTypeAssignments>
+                </ServiceCalendarFrame>
+            </frames>
+        </CompositeFrame>
+    </dataObjects>
+</PublicationDelivery>

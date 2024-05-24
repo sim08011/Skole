@@ -1,0 +1,2018 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PublicationDelivery xmlns="http://www.netex.org.uk/netex" xmlns:gis="http://www.opengis.net/gml/3.2" xmlns:siri="http://www.siri.org.uk/siri" version="1.15:NO-NeTEx-networktimetable:1.5">
+  <PublicationTimestamp>2024-05-21T00:12:00.415</PublicationTimestamp>
+  <ParticipantRef>RB</ParticipantRef>
+  <Description>Brevik-Sandøya</Description>
+  <dataObjects>
+    <CompositeFrame created="2024-05-13T10:00:47.793" version="1" id="TEL:CompositeFrame:3772731">
+      <validityConditions>
+        <AvailabilityCondition version="1" id="TEL:AvailabilityCondition:3772706">
+          <FromDate>2024-05-18T00:00:00</FromDate>
+          <ToDate>2025-05-20T00:00:00</ToDate>
+        </AvailabilityCondition>
+      </validityConditions>
+      <codespaces>
+        <Codespace id="tel">
+          <Xmlns>TEL</Xmlns>
+          <XmlnsUrl>http://www.rutebanken.org/ns/tel</XmlnsUrl>
+        </Codespace>
+        <Codespace id="nsr">
+          <Xmlns>NSR</Xmlns>
+          <XmlnsUrl>http://www.rutebanken.org/ns/nsr</XmlnsUrl>
+        </Codespace>
+      </codespaces>
+      <FrameDefaults>
+        <DefaultLocale>
+          <TimeZone>Europe/Oslo</TimeZone>
+          <DefaultLanguage>no</DefaultLanguage>
+        </DefaultLocale>
+      </FrameDefaults>
+      <frames>
+        <ServiceFrame version="1" id="TEL:ServiceFrame:3772732">
+          <routes>
+            <Route version="2024051333932" id="TEL:Route:8281_1">
+              <Name>Brevik-Sandøya</Name>
+              <ShortName>Brevik-Sandøya</ShortName>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <DirectionType>outbound</DirectionType>
+              <pointsInSequence>
+                <PointOnRoute order="1" version="2024051333932" id="TEL:PointOnRoute:3772707">
+                  <RoutePointRef ref="TEL:RoutePoint:5647"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="2" version="2024051333932" id="TEL:PointOnRoute:3772708">
+                  <RoutePointRef ref="TEL:RoutePoint:5195"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="3" version="2024051333932" id="TEL:PointOnRoute:3772709">
+                  <RoutePointRef ref="TEL:RoutePoint:5195"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="4" version="2024051333932" id="TEL:PointOnRoute:3772710">
+                  <RoutePointRef ref="TEL:RoutePoint:5194"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="5" version="2024051333932" id="TEL:PointOnRoute:3772711">
+                  <RoutePointRef ref="TEL:RoutePoint:5647"></RoutePointRef>
+                </PointOnRoute>
+              </pointsInSequence>
+            </Route>
+            <Route version="2024051333932" id="TEL:Route:8281_2">
+              <Name>Brevik-Sandøya</Name>
+              <ShortName>Brevik-Sandøya</ShortName>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <DirectionType>outbound</DirectionType>
+              <pointsInSequence>
+                <PointOnRoute order="1" version="2024051333932" id="TEL:PointOnRoute:3772712">
+                  <RoutePointRef ref="TEL:RoutePoint:5647"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="2" version="2024051333932" id="TEL:PointOnRoute:3772713">
+                  <RoutePointRef ref="TEL:RoutePoint:5195"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="3" version="2024051333932" id="TEL:PointOnRoute:3772714">
+                  <RoutePointRef ref="TEL:RoutePoint:5195"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="4" version="2024051333932" id="TEL:PointOnRoute:3772715">
+                  <RoutePointRef ref="TEL:RoutePoint:5194"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="5" version="2024051333932" id="TEL:PointOnRoute:3772716">
+                  <RoutePointRef ref="TEL:RoutePoint:5647"></RoutePointRef>
+                </PointOnRoute>
+              </pointsInSequence>
+            </Route>
+          </routes>
+          <lines>
+            <Line version="2024051333932" id="TEL:Line:8281">
+              <Name>Brevik-Sandøya</Name>
+              <TransportMode>water</TransportMode>
+              <TransportSubmode>
+                <WaterSubmode>localCarFerry</WaterSubmode>
+              </TransportSubmode>
+              <PublicCode>281</PublicCode>
+              <PrivateCode>8281</PrivateCode>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <RepresentedByGroupRef ref="TEL:Network:TFK"></RepresentedByGroupRef>
+            </Line>
+          </lines>
+          <journeyPatterns>
+            <JourneyPattern version="2024051333932" id="TEL:JourneyPattern:8281_1_1">
+              <Name>Brevik-Sandøya</Name>
+              <RouteRef ref="TEL:Route:8281_1" version="2024051333932"></RouteRef>
+              <pointsInSequence>
+                <StopPointInJourneyPattern order="1" version="2024051333932" id="TEL:StopPointInJourneyPattern:8281_1_1_1">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:5647"></ScheduledStopPointRef>
+                  <ForAlighting>false</ForAlighting>
+                  <DestinationDisplayRef ref="TEL:DestinationDisplay:2824"></DestinationDisplayRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="2" version="2024051333932" id="TEL:StopPointInJourneyPattern:8281_1_1_2">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:5195"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="3" version="2024051333932" id="TEL:StopPointInJourneyPattern:8281_1_1_3">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:5647"></ScheduledStopPointRef>
+                  <ForBoarding>false</ForBoarding>
+                </StopPointInJourneyPattern>
+              </pointsInSequence>
+              <linksInSequence>
+                <ServiceLinkInJourneyPattern order="1" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3772717">
+                  <ServiceLinkRef ref="TEL:ServiceLink:5647-5195"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="2" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3772718">
+                  <ServiceLinkRef ref="TEL:ServiceLink:5195-5647"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+              </linksInSequence>
+            </JourneyPattern>
+            <JourneyPattern version="2024051333932" id="TEL:JourneyPattern:8281_1_3">
+              <Name>Brevik-Sandøya</Name>
+              <RouteRef ref="TEL:Route:8281_1" version="2024051333932"></RouteRef>
+              <pointsInSequence>
+                <StopPointInJourneyPattern order="1" version="2024051333932" id="TEL:StopPointInJourneyPattern:8281_1_3_1">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:5647"></ScheduledStopPointRef>
+                  <ForAlighting>false</ForAlighting>
+                  <DestinationDisplayRef ref="TEL:DestinationDisplay:2821"></DestinationDisplayRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="2" version="2024051333932" id="TEL:StopPointInJourneyPattern:8281_1_3_2">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:5195"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="3" version="2024051333932" id="TEL:StopPointInJourneyPattern:8281_1_3_3">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:5194"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="4" version="2024051333932" id="TEL:StopPointInJourneyPattern:8281_1_3_4">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:5647"></ScheduledStopPointRef>
+                  <ForBoarding>false</ForBoarding>
+                </StopPointInJourneyPattern>
+              </pointsInSequence>
+              <linksInSequence>
+                <ServiceLinkInJourneyPattern order="1" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3772719">
+                  <ServiceLinkRef ref="TEL:ServiceLink:5647-5195"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="2" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3772720">
+                  <ServiceLinkRef ref="TEL:ServiceLink:5195-5194"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="3" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3772721">
+                  <ServiceLinkRef ref="TEL:ServiceLink:5194-5647"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+              </linksInSequence>
+            </JourneyPattern>
+            <JourneyPattern version="2024051333932" id="TEL:JourneyPattern:8281_1_2">
+              <Name>Brevik-Sandøya</Name>
+              <RouteRef ref="TEL:Route:8281_2" version="2024051333932"></RouteRef>
+              <pointsInSequence>
+                <StopPointInJourneyPattern order="1" version="2024051333932" id="TEL:StopPointInJourneyPattern:8281_1_2_1">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:5647"></ScheduledStopPointRef>
+                  <ForAlighting>false</ForAlighting>
+                  <DestinationDisplayRef ref="TEL:DestinationDisplay:2824"></DestinationDisplayRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="2" version="2024051333932" id="TEL:StopPointInJourneyPattern:8281_1_2_2">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:5195"></ScheduledStopPointRef>
+                  <DestinationDisplayRef ref="TEL:DestinationDisplay:2820"></DestinationDisplayRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="3" version="2024051333932" id="TEL:StopPointInJourneyPattern:8281_1_2_3">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:5647"></ScheduledStopPointRef>
+                  <ForBoarding>false</ForBoarding>
+                </StopPointInJourneyPattern>
+              </pointsInSequence>
+              <linksInSequence>
+                <ServiceLinkInJourneyPattern order="1" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3772722">
+                  <ServiceLinkRef ref="TEL:ServiceLink:5647-5195"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="2" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3772723">
+                  <ServiceLinkRef ref="TEL:ServiceLink:5195-5647"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+              </linksInSequence>
+            </JourneyPattern>
+            <JourneyPattern version="2024051333932" id="TEL:JourneyPattern:8281_1_4">
+              <Name>Brevik-Sandøya</Name>
+              <RouteRef ref="TEL:Route:8281_2" version="2024051333932"></RouteRef>
+              <pointsInSequence>
+                <StopPointInJourneyPattern order="1" version="2024051333932" id="TEL:StopPointInJourneyPattern:8281_1_4_1">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:5647"></ScheduledStopPointRef>
+                  <ForAlighting>false</ForAlighting>
+                  <DestinationDisplayRef ref="TEL:DestinationDisplay:2821"></DestinationDisplayRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="2" version="2024051333932" id="TEL:StopPointInJourneyPattern:8281_1_4_2">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:5195"></ScheduledStopPointRef>
+                  <DestinationDisplayRef ref="TEL:DestinationDisplay:2820"></DestinationDisplayRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="3" version="2024051333932" id="TEL:StopPointInJourneyPattern:8281_1_4_3">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:5194"></ScheduledStopPointRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="4" version="2024051333932" id="TEL:StopPointInJourneyPattern:8281_1_4_4">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:5647"></ScheduledStopPointRef>
+                  <ForBoarding>false</ForBoarding>
+                </StopPointInJourneyPattern>
+              </pointsInSequence>
+              <linksInSequence>
+                <ServiceLinkInJourneyPattern order="1" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3772724">
+                  <ServiceLinkRef ref="TEL:ServiceLink:5647-5195"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="2" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3772725">
+                  <ServiceLinkRef ref="TEL:ServiceLink:5195-5194"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+                <ServiceLinkInJourneyPattern order="3" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3772726">
+                  <ServiceLinkRef ref="TEL:ServiceLink:5194-5647"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+              </linksInSequence>
+            </JourneyPattern>
+          </journeyPatterns>
+        </ServiceFrame>
+        <TimetableFrame version="1" id="TEL:TimetableFrame:3772733">
+          <vehicleJourneys>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_90">
+              <Name>Sandøya</Name>
+              <PrivateCode>1561</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSaSu"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_1" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_90_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>23:25:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_90_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>23:35:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_90_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>23:48:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_89">
+              <Name>Sandøya</Name>
+              <PrivateCode>1521</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSaSu"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_1" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_89_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>22:40:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_89_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>22:53:00</ArrivalTime>
+                  <DepartureTime>23:05:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_89_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>23:18:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_85">
+              <Name>Sandøya</Name>
+              <PrivateCode>1481</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThSaSu"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_1" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_85_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>21:40:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_85_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>21:53:00</ArrivalTime>
+                  <DepartureTime>22:05:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_85_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>22:18:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_77">
+              <Name>Sandøya</Name>
+              <PrivateCode>1441</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSaSu"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_1" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_77_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>20:50:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_77_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>21:03:00</ArrivalTime>
+                  <DepartureTime>21:10:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_77_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>21:23:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_70">
+              <Name>Sandøya</Name>
+              <PrivateCode>1421</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSaSu"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_1" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_70_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>19:35:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_70_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>19:48:00</ArrivalTime>
+                  <DepartureTime>19:55:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_70_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>20:08:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_65">
+              <Name>Sandøya</Name>
+              <PrivateCode>1381</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSaSu"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_1" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_65_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>17:40:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_65_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>17:53:00</ArrivalTime>
+                  <DepartureTime>18:00:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_65_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>18:13:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_61">
+              <Name>Sandøya</Name>
+              <PrivateCode>1361</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSaSu"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_1" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_61_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>16:55:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_61_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>17:08:00</ArrivalTime>
+                  <DepartureTime>17:15:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_61_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>17:28:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_57">
+              <Name>Sandøya</Name>
+              <PrivateCode>1321</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSaSu"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_1" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_57_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>16:15:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_57_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>16:28:00</ArrivalTime>
+                  <DepartureTime>16:35:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_57_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>16:48:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_53">
+              <Name>Sandøya</Name>
+              <PrivateCode>1301</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFr"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_1" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_53_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>15:35:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_53_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>15:48:00</ArrivalTime>
+                  <DepartureTime>15:55:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_53_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>16:08:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_46">
+              <Name>Sandøya</Name>
+              <PrivateCode>1281</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFr"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_1" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_46_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:55:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_46_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>15:08:00</ArrivalTime>
+                  <DepartureTime>15:15:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_46_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>15:28:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_41">
+              <Name>Sandøya</Name>
+              <PrivateCode>1261</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSaSu"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_1" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_41_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:15:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_41_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>14:28:00</ArrivalTime>
+                  <DepartureTime>14:35:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_41_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>14:48:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_37">
+              <Name>Sandøya</Name>
+              <PrivateCode>1241</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSaSu"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_1" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_37_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>13:15:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_37_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>13:28:00</ArrivalTime>
+                  <DepartureTime>13:35:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_37_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>13:48:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_33">
+              <Name>Sandøya</Name>
+              <PrivateCode>1201</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSaSu"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_1" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_33_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>11:35:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_33_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>11:48:00</ArrivalTime>
+                  <DepartureTime>12:00:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_33_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>12:13:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_25">
+              <Name>Sandøya</Name>
+              <PrivateCode>1161</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSaSu"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_1" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_25_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>09:40:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_25_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>09:53:00</ArrivalTime>
+                  <DepartureTime>10:00:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_25_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>10:13:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_21">
+              <Name>Sandøya</Name>
+              <PrivateCode>1141</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSa_5"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_1" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_21_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>08:20:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_21_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>08:33:00</ArrivalTime>
+                  <DepartureTime>08:40:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_21_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>08:53:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_17">
+              <Name>Sandøya</Name>
+              <PrivateCode>1101</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSa_5"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_1" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_17_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>07:45:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_17_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>07:58:00</ArrivalTime>
+                  <DepartureTime>08:00:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_17_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>08:13:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_13">
+              <Name>Sandøya</Name>
+              <PrivateCode>1081</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSa_5"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_1" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_13_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>07:00:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_13_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>07:13:00</ArrivalTime>
+                  <DepartureTime>07:20:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_13_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>07:33:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_9">
+              <Name>Sandøya</Name>
+              <PrivateCode>1041</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSa_5"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_1" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_9_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>06:20:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_9_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>06:33:00</ArrivalTime>
+                  <DepartureTime>06:40:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_9_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>06:53:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_5">
+              <Name>Sandøya</Name>
+              <PrivateCode>1021</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSa_5"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_1" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_5_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>05:40:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_5_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>05:53:00</ArrivalTime>
+                  <DepartureTime>06:00:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_5_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>06:13:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_1">
+              <Name>Sandøya</Name>
+              <PrivateCode>1001</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFr"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_1" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_1_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>05:05:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_1_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>05:18:00</ArrivalTime>
+                  <DepartureTime>05:20:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_1_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_1_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>05:33:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_84">
+              <Name>Sandøya-Bjørkøya</Name>
+              <PrivateCode>1463</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-Fr_4"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_3" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_84_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_3_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>21:40:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_84_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_3_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>21:53:00</ArrivalTime>
+                  <DepartureTime>21:55:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_84_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_3_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>22:05:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_84_4">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_3_4" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>22:18:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_69">
+              <Name>Sandøya-Bjørkøya</Name>
+              <PrivateCode>1401</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSaSu"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_3" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_69_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_3_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>18:25:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_69_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_3_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>18:38:00</ArrivalTime>
+                  <DepartureTime>18:40:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_69_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_3_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>18:50:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_69_4">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_3_4" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>19:08:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_45">
+              <Name>Sandøya-Bjørkøya</Name>
+              <PrivateCode>1283</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-SaSu"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_3" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_45_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_3_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:55:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_45_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_3_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>15:08:00</ArrivalTime>
+                  <DepartureTime>15:10:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_45_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_3_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>15:20:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_45_4">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_3_4" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>15:38:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_29">
+              <Name>Sandøya-Bjørkøya</Name>
+              <PrivateCode>1181</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSaSu"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_3" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_29_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_3_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>10:25:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_29_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_3_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>10:38:00</ArrivalTime>
+                  <DepartureTime>10:40:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_29_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_3_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>10:50:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_29_4">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_3_4" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>11:08:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_93">
+              <Name>Sandøya</Name>
+              <PrivateCode>1045</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSaSu_5"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_93_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>23:25:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_93_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>23:35:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_93_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>23:48:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_91">
+              <Name>Sandøya</Name>
+              <PrivateCode>1045</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSaSu_3"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_91_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>23:25:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_91_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>23:35:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_91_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>23:48:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_88">
+              <Name>Sandøya</Name>
+              <PrivateCode>1043</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSaSu_5"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_88_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>22:35:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_88_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>22:48:00</ArrivalTime>
+                  <DepartureTime>23:05:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_88_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>23:18:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_86">
+              <Name>Sandøya</Name>
+              <PrivateCode>1043</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSaSu_3"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_86_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>22:35:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_86_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>22:48:00</ArrivalTime>
+                  <DepartureTime>23:05:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_86_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>23:18:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_83">
+              <Name>Sandøya</Name>
+              <PrivateCode>1041</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuThFrSaSu_4"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_83_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>21:20:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_83_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>21:33:00</ArrivalTime>
+                  <DepartureTime>21:40:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_83_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>21:53:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_79">
+              <Name>Sandøya</Name>
+              <PrivateCode>1041</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuThFrSaSu"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_79_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>21:20:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_79_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>21:33:00</ArrivalTime>
+                  <DepartureTime>21:40:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_79_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>21:53:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_76">
+              <Name>Sandøya</Name>
+              <PrivateCode>1039</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSaSu_5"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_76_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>20:30:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_76_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>20:43:00</ArrivalTime>
+                  <DepartureTime>20:50:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_76_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>21:03:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_74">
+              <Name>Sandøya</Name>
+              <PrivateCode>1039</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSaSu_3"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_74_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>20:30:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_74_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>20:43:00</ArrivalTime>
+                  <DepartureTime>20:50:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_74_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>21:03:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_73">
+              <Name>Sandøya</Name>
+              <PrivateCode>1037</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSaSu_5"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_73_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>19:40:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_73_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>19:53:00</ArrivalTime>
+                  <DepartureTime>20:00:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_73_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>20:13:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_71">
+              <Name>Sandøya</Name>
+              <PrivateCode>1037</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSaSu_3"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_71_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>19:40:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_71_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>19:53:00</ArrivalTime>
+                  <DepartureTime>20:00:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_71_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>20:13:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_64">
+              <Name>Sandøya</Name>
+              <PrivateCode>1033</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSaSu_5"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_64_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>17:05:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_64_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>17:18:00</ArrivalTime>
+                  <DepartureTime>17:25:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_64_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>17:38:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_62">
+              <Name>Sandøya</Name>
+              <PrivateCode>1033</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSaSu_3"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_62_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>17:05:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_62_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>17:18:00</ArrivalTime>
+                  <DepartureTime>17:25:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_62_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>17:38:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_60">
+              <Name>Sandøya</Name>
+              <PrivateCode>1031</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSaSu_5"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_60_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>16:15:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_60_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>16:28:00</ArrivalTime>
+                  <DepartureTime>16:35:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_60_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>16:48:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_58">
+              <Name>Sandøya</Name>
+              <PrivateCode>1031</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSaSu_3"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_58_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>16:15:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_58_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>16:28:00</ArrivalTime>
+                  <DepartureTime>16:35:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_58_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>16:48:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_56">
+              <Name>Sandøya</Name>
+              <PrivateCode>1005</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFr_5"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_56_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>15:35:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_56_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>15:48:00</ArrivalTime>
+                  <DepartureTime>15:55:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_56_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>16:08:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_54">
+              <Name>Sandøya</Name>
+              <PrivateCode>1005</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFr_3"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_54_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>15:35:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_54_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>15:48:00</ArrivalTime>
+                  <DepartureTime>15:55:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_54_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>16:08:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_52">
+              <Name>Sandøya</Name>
+              <PrivateCode>1003</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFr_5"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_52_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:55:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_52_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>15:08:00</ArrivalTime>
+                  <DepartureTime>15:15:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_52_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>15:28:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_48">
+              <Name>Sandøya</Name>
+              <PrivateCode>1003</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFr_3"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_48_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:55:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_48_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>15:08:00</ArrivalTime>
+                  <DepartureTime>15:15:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_48_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>15:28:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_44">
+              <Name>Sandøya</Name>
+              <PrivateCode>1027</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSaSu_5"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_44_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:15:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_44_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>14:28:00</ArrivalTime>
+                  <DepartureTime>14:35:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_44_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>14:48:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_42">
+              <Name>Sandøya</Name>
+              <PrivateCode>1027</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSaSu_3"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_42_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:15:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_42_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>14:28:00</ArrivalTime>
+                  <DepartureTime>14:35:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_42_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>14:48:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_40">
+              <Name>Sandøya</Name>
+              <PrivateCode>1025</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSaSu_5"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_40_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>13:15:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_40_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>13:28:00</ArrivalTime>
+                  <DepartureTime>13:35:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_40_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>13:48:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_38">
+              <Name>Sandøya</Name>
+              <PrivateCode>1025</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSaSu_3"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_38_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>13:15:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_38_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>13:28:00</ArrivalTime>
+                  <DepartureTime>13:35:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_38_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>13:48:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_36">
+              <Name>Sandøya</Name>
+              <PrivateCode>1023</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSaSu_5"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_36_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>11:40:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_36_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>11:53:00</ArrivalTime>
+                  <DepartureTime>12:00:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_36_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>12:13:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_34">
+              <Name>Sandøya</Name>
+              <PrivateCode>1023</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSaSu_3"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_34_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>11:40:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_34_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>11:53:00</ArrivalTime>
+                  <DepartureTime>12:00:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_34_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>12:13:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_28">
+              <Name>Sandøya</Name>
+              <PrivateCode>1001</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSa_4"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_28_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>09:40:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_28_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>09:53:00</ArrivalTime>
+                  <DepartureTime>10:00:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_28_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>10:13:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_26">
+              <Name>Sandøya</Name>
+              <PrivateCode>1001</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSa"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_26_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>09:40:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_26_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>09:53:00</ArrivalTime>
+                  <DepartureTime>10:00:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_26_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>10:13:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_24">
+              <Name>Sandøya</Name>
+              <PrivateCode>1019</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-Su_5_AddJrns"></DayTypeRef>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-Su_5"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_24_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>09:25:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_24_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>09:38:00</ArrivalTime>
+                  <DepartureTime>09:45:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_24_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>09:58:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_22">
+              <Name>Sandøya</Name>
+              <PrivateCode>1019</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-Su_3"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_22_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>09:25:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_22_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>09:38:00</ArrivalTime>
+                  <DepartureTime>09:45:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_22_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>09:58:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_20">
+              <Name>Sandøya</Name>
+              <PrivateCode>1017</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSa_4"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_20_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>08:10:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_20_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>08:23:00</ArrivalTime>
+                  <DepartureTime>08:30:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_20_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>08:43:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_18">
+              <Name>Sandøya</Name>
+              <PrivateCode>1017</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSa"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_18_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>08:10:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_18_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>08:23:00</ArrivalTime>
+                  <DepartureTime>08:30:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_18_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>08:43:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_16">
+              <Name>Sandøya</Name>
+              <PrivateCode>1015</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSa_4"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_16_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>07:30:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_16_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>07:43:00</ArrivalTime>
+                  <DepartureTime>07:50:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_16_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>08:03:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_14">
+              <Name>Sandøya</Name>
+              <PrivateCode>1015</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSa"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_14_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>07:30:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_14_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>07:43:00</ArrivalTime>
+                  <DepartureTime>07:50:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_14_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>08:03:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_12">
+              <Name>Sandøya</Name>
+              <PrivateCode>1013</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSa_4"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_12_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>06:50:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_12_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>07:03:00</ArrivalTime>
+                  <DepartureTime>07:10:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_12_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>07:23:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_10">
+              <Name>Sandøya</Name>
+              <PrivateCode>1013</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSa"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_10_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>06:50:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_10_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>07:03:00</ArrivalTime>
+                  <DepartureTime>07:10:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_10_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>07:23:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_8">
+              <Name>Sandøya</Name>
+              <PrivateCode>1011</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSa_4"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_8_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>05:50:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_8_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>06:03:00</ArrivalTime>
+                  <DepartureTime>06:10:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_8_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>06:23:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_6">
+              <Name>Sandøya</Name>
+              <PrivateCode>1011</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSa"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_6_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>05:50:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_6_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>06:03:00</ArrivalTime>
+                  <DepartureTime>06:10:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_6_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>06:23:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_4">
+              <Name>Sandøya</Name>
+              <PrivateCode>1009</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSa_4"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_4_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>05:05:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_4_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>05:18:00</ArrivalTime>
+                  <DepartureTime>05:25:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_4_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>05:38:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_2">
+              <Name>Sandøya</Name>
+              <PrivateCode>1009</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSa"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_2" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_2_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>05:05:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_2_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>05:18:00</ArrivalTime>
+                  <DepartureTime>05:25:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_2_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_2_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>05:38:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_82">
+              <Name>Sandøya-Bjørkøya</Name>
+              <PrivateCode>1007</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-We_4"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_4" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_82_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_4_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>21:20:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_82_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_4_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>21:33:00</ArrivalTime>
+                  <DepartureTime>21:40:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_82_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_4_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>21:50:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_82_4">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_4_4" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>22:18:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_78">
+              <Name>Sandøya-Bjørkøya</Name>
+              <PrivateCode>1007</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-We"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_4" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_78_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_4_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>21:20:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_78_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_4_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>21:33:00</ArrivalTime>
+                  <DepartureTime>21:40:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_78_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_4_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>21:50:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_78_4">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_4_4" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>22:18:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_68">
+              <Name>Sandøya-Bjørkøya</Name>
+              <PrivateCode>1035</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSaSu_5"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_4" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_68_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_4_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>18:00:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_68_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_4_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>18:13:00</ArrivalTime>
+                  <DepartureTime>18:15:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_68_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_4_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>18:25:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_68_4">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_4_4" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>18:53:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_66">
+              <Name>Sandøya-Bjørkøya</Name>
+              <PrivateCode>1035</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSaSu_3"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_4" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_66_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_4_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>18:00:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_66_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_4_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>18:13:00</ArrivalTime>
+                  <DepartureTime>18:15:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_66_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_4_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>18:25:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_66_4">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_4_4" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>18:53:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_51">
+              <Name>Sandøya-Bjørkøya</Name>
+              <PrivateCode>1029</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-SaSu_5_AddJrns"></DayTypeRef>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-SaSu_5"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_4" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_51_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_4_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:55:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_51_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_4_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>15:08:00</ArrivalTime>
+                  <DepartureTime>15:15:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_51_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_4_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>15:25:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_51_4">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_4_4" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>15:53:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_47">
+              <Name>Sandøya-Bjørkøya</Name>
+              <PrivateCode>1029</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-SaSu_3"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_4" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_47_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_4_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>14:55:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_47_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_4_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>15:08:00</ArrivalTime>
+                  <DepartureTime>15:15:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_47_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_4_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>15:25:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_47_4">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_4_4" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>15:53:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_32">
+              <Name>Sandøya-Bjørkøya</Name>
+              <PrivateCode>1021</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSaSu_5"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_4" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_32_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_4_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>10:25:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_32_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_4_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>10:38:00</ArrivalTime>
+                  <DepartureTime>10:40:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_32_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_4_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>10:50:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_32_4">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_4_4" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>11:18:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8281_1_30">
+              <Name>Sandøya-Bjørkøya</Name>
+              <PrivateCode>1021</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Mai_Mon_13-Dec_Sun_22-MoTuWeThFrSaSu_3"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8281_1_4" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:87"></OperatorRef>
+              <LineRef ref="TEL:Line:8281" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_30_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_4_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>10:25:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_30_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_4_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>10:38:00</ArrivalTime>
+                  <DepartureTime>10:40:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_30_3">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_4_3" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>10:50:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8281_1_30_4">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8281_1_4_4" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>11:18:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+          </vehicleJourneys>
+        </TimetableFrame>
+      </frames>
+    </CompositeFrame>
+  </dataObjects>
+</PublicationDelivery>

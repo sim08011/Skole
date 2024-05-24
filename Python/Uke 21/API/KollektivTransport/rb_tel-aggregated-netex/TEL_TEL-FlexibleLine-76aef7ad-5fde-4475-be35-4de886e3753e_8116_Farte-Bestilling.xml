@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PublicationDelivery xmlns="http://www.netex.org.uk/netex" xmlns:ns2="http://www.opengis.net/gml/3.2" xmlns:ns3="http://www.siri.org.uk/siri" version="1.11:NO-NeTEx-networktimetable:1.3">
+    <PublicationTimestamp>2023-02-14T14:36:48.669</PublicationTimestamp>
+    <ParticipantRef>Farte__Telemark_</ParticipantRef>
+    <Description>Flexible lines</Description>
+    <dataObjects>
+        <CompositeFrame created="2023-02-14T14:36:48.669" version="1" id="TEL:CompositeFrame:1">
+            <validityConditions>
+                <AvailabilityCondition version="1" id="TEL:AvailabilityCondition:1">
+                    <FromDate>2022-08-15T00:00:00</FromDate>
+                    <ToDate>2023-06-16T00:00:00</ToDate>
+                </AvailabilityCondition>
+            </validityConditions>
+            <codespaces>
+                <Codespace id="tel">
+                    <Xmlns>TEL</Xmlns>
+                    <XmlnsUrl>http://www.rutebanken.org/ns/tel</XmlnsUrl>
+                </Codespace>
+                <Codespace id="nsr">
+                    <Xmlns>NSR</Xmlns>
+                    <XmlnsUrl>http://www.rutebanken.org/ns/nsr</XmlnsUrl>
+                </Codespace>
+            </codespaces>
+            <FrameDefaults>
+                <DefaultLocale>
+                    <TimeZone>Europe/Oslo</TimeZone>
+                    <DefaultLanguage>no</DefaultLanguage>
+                </DefaultLocale>
+            </FrameDefaults>
+            <frames>
+                <ServiceFrame version="1" id="TEL:ServiceFrame:1">
+                    <routes>
+                        <Route version="0" id="TEL:Route:8ac5d98d-76ad-409d-8138-a73b4516704e">
+                            <Name>Vanlig</Name>
+                            <FlexibleLineRef ref="TEL:FlexibleLine:76aef7ad-5fde-4475-be35-4de886e3753e" version="35"/>
+                            <pointsInSequence>
+<PointOnRoute order="1" version="35" id="TEL:PointOnRoute:b5113ee2-f0c2-46ee-b613-09f2a4cd25ce">
+    <RoutePointRef ref="TEL:RoutePoint:33d68da6-7d5a-460d-b33b-cd86c4ac7a1c"/>
+</PointOnRoute>
+<PointOnRoute order="2" version="34" id="TEL:PointOnRoute:28ea0628-14ef-46b7-9625-1766e3591bb1">
+    <RoutePointRef ref="TEL:RoutePoint:33d68da6-7d5a-460d-b33b-cd86c4ac7a1c"/>
+</PointOnRoute>
+                            </pointsInSequence>
+                        </Route>
+                    </routes>
+                    <lines>
+                        <FlexibleLine version="35" id="TEL:FlexibleLine:76aef7ad-5fde-4475-be35-4de886e3753e">
+                            <Name>Farte Bestilling</Name>
+                            <TransportMode>bus</TransportMode>
+                            <TransportSubmode>
+<BusSubmode>localBus</BusSubmode>
+                            </TransportSubmode>
+                            <PublicCode>116</PublicCode>
+                            <PrivateCode>8116</PrivateCode>
+                            <OperatorRef ref="VYX:Operator:VyTravel"/>
+                            <RepresentedByGroupRef ref="TEL:Network:f731068f-0393-4a5f-944b-9458cacb0fb7"/>
+                            <FlexibleLineType>flexibleAreasOnly</FlexibleLineType>
+                            <BookingContact>
+<Phone>+47 33 30 01 00</Phone>
+<Url>https://farte.no/bestilling</Url>
+                            </BookingContact>
+                            <BookingMethods>online</BookingMethods>
+                            <BookingAccess>public</BookingAccess>
+                            <BuyWhen>onReservation beforeBoarding</BuyWhen>
+                            <MinimumBookingPeriod>PT10M</MinimumBookingPeriod>
+                            <BookingNote>Kjøres kun ved bestilling! Reiserute og tidspunkter kan forandres hvis flere bestiller henting.</BookingNote>
+                        </FlexibleLine>
+                    </lines>
+                    <journeyPatterns>
+                        <JourneyPattern version="0" id="TEL:JourneyPattern:8ac5d98d-76ad-409d-8138-a73b4516704e">
+                            <Name>Vanlig</Name>
+                            <RouteRef ref="TEL:Route:8ac5d98d-76ad-409d-8138-a73b4516704e" version="0"/>
+                            <pointsInSequence>
+<StopPointInJourneyPattern order="1" version="35" id="TEL:StopPointInJourneyPattern:b5113ee2-f0c2-46ee-b613-09f2a4cd25ce">
+    <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:33d68da6-7d5a-460d-b33b-cd86c4ac7a1c"/>
+    <ForAlighting>false</ForAlighting>
+    <ForBoarding>true</ForBoarding>
+    <DestinationDisplayRef ref="TEL:DestinationDisplay:242fedbc-d0d0-4516-93f9-03fdd08ef345"/>
+</StopPointInJourneyPattern>
+<StopPointInJourneyPattern order="2" version="34" id="TEL:StopPointInJourneyPattern:28ea0628-14ef-46b7-9625-1766e3591bb1">
+    <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:33d68da6-7d5a-460d-b33b-cd86c4ac7a1c"/>
+    <ForAlighting>true</ForAlighting>
+    <ForBoarding>false</ForBoarding>
+</StopPointInJourneyPattern>
+                            </pointsInSequence>
+                        </JourneyPattern>
+                    </journeyPatterns>
+                </ServiceFrame>
+                <TimetableFrame version="1" id="TEL:TimetableFrame:1">
+                    <vehicleJourneys>
+                        <ServiceJourney version="31" id="TEL:ServiceJourney:a54c8691-65a2-4e10-b9a1-44c18adb95de">
+                            <Name>Ettermiddag</Name>
+                            <PrivateCode>3</PrivateCode>
+                            <dayTypes>
+<DayTypeRef ref="TEL:DayType:8aa851d8-70c2-4c7c-83d2-25d4e9bf2cfa"/>
+                            </dayTypes>
+                            <JourneyPatternRef ref="TEL:JourneyPattern:8ac5d98d-76ad-409d-8138-a73b4516704e" version="0"/>
+                            <passingTimes>
+<TimetabledPassingTime version="2" id="TEL:TimetabledPassingTime:4f965ee6-0da8-45a6-a218-82b66f414a83">
+    <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:b5113ee2-f0c2-46ee-b613-09f2a4cd25ce" version="35"/>
+    <LatestArrivalTime>19:30:00</LatestArrivalTime>
+    <EarliestDepartureTime>15:00:00</EarliestDepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="2" id="TEL:TimetabledPassingTime:d6cee214-bd76-4f25-9ddb-03292b185b75">
+    <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:28ea0628-14ef-46b7-9625-1766e3591bb1" version="34"/>
+    <LatestArrivalTime>19:30:00</LatestArrivalTime>
+    <EarliestDepartureTime>15:00:00</EarliestDepartureTime>
+</TimetabledPassingTime>
+                            </passingTimes>
+                        </ServiceJourney>
+                        <ServiceJourney version="32" id="TEL:ServiceJourney:f32ce5a3-9e7f-4191-93f2-98f220e259fa">
+                            <Name>Dagtid</Name>
+                            <PrivateCode>1</PrivateCode>
+                            <dayTypes>
+<DayTypeRef ref="TEL:DayType:8aa851d8-70c2-4c7c-83d2-25d4e9bf2cfa"/>
+                            </dayTypes>
+                            <JourneyPatternRef ref="TEL:JourneyPattern:8ac5d98d-76ad-409d-8138-a73b4516704e" version="0"/>
+                            <passingTimes>
+<TimetabledPassingTime version="2" id="TEL:TimetabledPassingTime:bdacff7a-fc3e-4ba1-aa7d-1d257eae1349">
+    <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:b5113ee2-f0c2-46ee-b613-09f2a4cd25ce" version="35"/>
+    <LatestArrivalTime>13:00:00</LatestArrivalTime>
+    <EarliestDepartureTime>08:30:00</EarliestDepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="2" id="TEL:TimetabledPassingTime:994d07d7-6393-474c-8657-d8f5899efee6">
+    <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:28ea0628-14ef-46b7-9625-1766e3591bb1" version="34"/>
+    <LatestArrivalTime>13:00:00</LatestArrivalTime>
+    <EarliestDepartureTime>08:30:00</EarliestDepartureTime>
+</TimetabledPassingTime>
+                            </passingTimes>
+                        </ServiceJourney>
+                        <ServiceJourney version="28" id="TEL:ServiceJourney:b1bb7850-bfe3-4c6c-ad51-c318622d5e54">
+                            <Name>Utvida dager</Name>
+                            <PrivateCode>2</PrivateCode>
+                            <dayTypes>
+<DayTypeRef ref="TEL:DayType:febebd5e-a1be-4f82-a22d-6d6026296741"/>
+                            </dayTypes>
+                            <JourneyPatternRef ref="TEL:JourneyPattern:8ac5d98d-76ad-409d-8138-a73b4516704e" version="0"/>
+                            <passingTimes>
+<TimetabledPassingTime version="2" id="TEL:TimetabledPassingTime:3515fd36-6f54-4ad2-b75c-7b992caf4071">
+    <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:b5113ee2-f0c2-46ee-b613-09f2a4cd25ce" version="35"/>
+    <LatestArrivalTime>15:00:00</LatestArrivalTime>
+    <EarliestDepartureTime>13:00:00</EarliestDepartureTime>
+</TimetabledPassingTime>
+<TimetabledPassingTime version="2" id="TEL:TimetabledPassingTime:ff5444d4-78ab-4138-9e73-64e2af70051f">
+    <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:28ea0628-14ef-46b7-9625-1766e3591bb1" version="34"/>
+    <LatestArrivalTime>15:00:00</LatestArrivalTime>
+    <EarliestDepartureTime>13:00:00</EarliestDepartureTime>
+</TimetabledPassingTime>
+                            </passingTimes>
+                        </ServiceJourney>
+                    </vehicleJourneys>
+                </TimetableFrame>
+            </frames>
+        </CompositeFrame>
+    </dataObjects>
+</PublicationDelivery>

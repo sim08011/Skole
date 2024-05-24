@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PublicationDelivery xmlns="http://www.netex.org.uk/netex" xmlns:gis="http://www.opengis.net/gml/3.2" xmlns:siri="http://www.siri.org.uk/siri" version="1.15:NO-NeTEx-networktimetable:1.5">
+  <PublicationTimestamp>2024-05-21T00:11:59.956</PublicationTimestamp>
+  <ParticipantRef>RB</ParticipantRef>
+  <Description>Skinnarbu-Mogen</Description>
+  <dataObjects>
+    <CompositeFrame created="2024-05-13T10:00:47.793" version="1" id="TEL:CompositeFrame:3772244">
+      <validityConditions>
+        <AvailabilityCondition version="1" id="TEL:AvailabilityCondition:3772216">
+          <FromDate>2024-05-18T00:00:00</FromDate>
+          <ToDate>2025-05-20T00:00:00</ToDate>
+        </AvailabilityCondition>
+      </validityConditions>
+      <codespaces>
+        <Codespace id="tel">
+          <Xmlns>TEL</Xmlns>
+          <XmlnsUrl>http://www.rutebanken.org/ns/tel</XmlnsUrl>
+        </Codespace>
+        <Codespace id="nsr">
+          <Xmlns>NSR</Xmlns>
+          <XmlnsUrl>http://www.rutebanken.org/ns/nsr</XmlnsUrl>
+        </Codespace>
+      </codespaces>
+      <FrameDefaults>
+        <DefaultLocale>
+          <TimeZone>Europe/Oslo</TimeZone>
+          <DefaultLanguage>no</DefaultLanguage>
+        </DefaultLocale>
+      </FrameDefaults>
+      <frames>
+        <ServiceFrame version="1" id="TEL:ServiceFrame:3772245">
+          <routes>
+            <Route version="2024051333932" id="TEL:Route:8149_1">
+              <Name>Skinnarbu-Mogen</Name>
+              <ShortName>Skinnarbu-Mogen</ShortName>
+              <LineRef ref="TEL:Line:8149" version="2024051333932"></LineRef>
+              <DirectionType>outbound</DirectionType>
+              <pointsInSequence>
+                <PointOnRoute order="1" version="2024051333932" id="TEL:PointOnRoute:3772217">
+                  <RoutePointRef ref="TEL:RoutePoint:6915"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="2" version="2024051333932" id="TEL:PointOnRoute:3772218">
+                  <RoutePointRef ref="TEL:RoutePoint:6424"></RoutePointRef>
+                </PointOnRoute>
+              </pointsInSequence>
+            </Route>
+            <Route version="2024051333932" id="TEL:Route:8149_2">
+              <Name>Mogen-Skinnarbu</Name>
+              <ShortName>Mogen-Skinnarbu</ShortName>
+              <LineRef ref="TEL:Line:8149" version="2024051333932"></LineRef>
+              <DirectionType>inbound</DirectionType>
+              <pointsInSequence>
+                <PointOnRoute order="1" version="2024051333932" id="TEL:PointOnRoute:3772219">
+                  <RoutePointRef ref="TEL:RoutePoint:6424"></RoutePointRef>
+                </PointOnRoute>
+                <PointOnRoute order="2" version="2024051333932" id="TEL:PointOnRoute:3772220">
+                  <RoutePointRef ref="TEL:RoutePoint:6915"></RoutePointRef>
+                </PointOnRoute>
+              </pointsInSequence>
+            </Route>
+          </routes>
+          <lines>
+            <Line version="2024051333932" id="TEL:Line:8149">
+              <Name>Skinnarbu-Mogen</Name>
+              <TransportMode>water</TransportMode>
+              <TransportSubmode>
+                <WaterSubmode>sightseeingService</WaterSubmode>
+              </TransportSubmode>
+              <PublicCode>149</PublicCode>
+              <PrivateCode>8149</PrivateCode>
+              <OperatorRef ref="TEL:Operator:92"></OperatorRef>
+              <RepresentedByGroupRef ref="TEL:Network:92"></RepresentedByGroupRef>
+            </Line>
+          </lines>
+          <journeyPatterns>
+            <JourneyPattern version="2024051333932" id="TEL:JourneyPattern:8149_1_1">
+              <Name>Skinnarbu-Mogen</Name>
+              <RouteRef ref="TEL:Route:8149_1" version="2024051333932"></RouteRef>
+              <pointsInSequence>
+                <StopPointInJourneyPattern order="1" version="2024051333932" id="TEL:StopPointInJourneyPattern:8149_1_1_1">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6915"></ScheduledStopPointRef>
+                  <ForAlighting>false</ForAlighting>
+                  <DestinationDisplayRef ref="TEL:DestinationDisplay:1490"></DestinationDisplayRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="2" version="2024051333932" id="TEL:StopPointInJourneyPattern:8149_1_1_2">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6424"></ScheduledStopPointRef>
+                  <ForBoarding>false</ForBoarding>
+                </StopPointInJourneyPattern>
+              </pointsInSequence>
+              <linksInSequence>
+                <ServiceLinkInJourneyPattern order="1" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3772221">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6915-6424"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+              </linksInSequence>
+            </JourneyPattern>
+            <JourneyPattern version="2024051333932" id="TEL:JourneyPattern:8149_2_1">
+              <Name>Mogen-Skinnarbu</Name>
+              <RouteRef ref="TEL:Route:8149_2" version="2024051333932"></RouteRef>
+              <pointsInSequence>
+                <StopPointInJourneyPattern order="1" version="2024051333932" id="TEL:StopPointInJourneyPattern:8149_2_1_1">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6424"></ScheduledStopPointRef>
+                  <ForAlighting>false</ForAlighting>
+                  <DestinationDisplayRef ref="TEL:DestinationDisplay:1491"></DestinationDisplayRef>
+                </StopPointInJourneyPattern>
+                <StopPointInJourneyPattern order="2" version="2024051333932" id="TEL:StopPointInJourneyPattern:8149_2_1_2">
+                  <ScheduledStopPointRef ref="TEL:ScheduledStopPoint:6915"></ScheduledStopPointRef>
+                  <ForBoarding>false</ForBoarding>
+                </StopPointInJourneyPattern>
+              </pointsInSequence>
+              <linksInSequence>
+                <ServiceLinkInJourneyPattern order="1" version="2024051333932" id="TEL:ServiceLinkInJourneyPattern:3772222">
+                  <ServiceLinkRef ref="TEL:ServiceLink:6424-6915"></ServiceLinkRef>
+                </ServiceLinkInJourneyPattern>
+              </linksInSequence>
+            </JourneyPattern>
+          </journeyPatterns>
+        </ServiceFrame>
+        <TimetableFrame version="1" id="TEL:TimetableFrame:3772246">
+          <vehicleJourneys>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8149_1_3">
+              <Name>Mogen</Name>
+              <PrivateCode>1041</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Jul_Sat_06-Aug_Sun_04-MoTuWeThFrSaSu"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8149_1_1" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:92"></OperatorRef>
+              <LineRef ref="TEL:Line:8149" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8149_1_3_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8149_1_1_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>13:30:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8149_1_3_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8149_1_1_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>15:15:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8149_1_2">
+              <Name>Mogen</Name>
+              <PrivateCode>1021</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Jun_Fri_28-Sep_Sun_01-MoTuWeThFrSaSu_3"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8149_1_1" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:92"></OperatorRef>
+              <LineRef ref="TEL:Line:8149" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8149_1_2_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8149_1_1_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>09:30:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8149_1_2_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8149_1_1_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>11:15:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8149_1_1">
+              <Name>Mogen</Name>
+              <PrivateCode>1021</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Jun_Fri_28-Sep_Sun_01-MoTuWeThFrSaSu"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8149_1_1" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:92"></OperatorRef>
+              <LineRef ref="TEL:Line:8149" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8149_1_1_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8149_1_1_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>09:30:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8149_1_1_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8149_1_1_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>11:15:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8149_2_6">
+              <Name>Skinnarbu kai</Name>
+              <PrivateCode>1042</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Jun_Fri_28-Sep_Sun_01-MoTuWeThFrSaSu_3"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8149_2_1" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:92"></OperatorRef>
+              <LineRef ref="TEL:Line:8149" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8149_2_6_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8149_2_1_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>15:30:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8149_2_6_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8149_2_1_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>17:15:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8149_2_5">
+              <Name>Skinnarbu kai</Name>
+              <PrivateCode>1042</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Jun_Fri_28-Sep_Sun_01-MoTuWeThFrSaSu"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8149_2_1" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:92"></OperatorRef>
+              <LineRef ref="TEL:Line:8149" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8149_2_5_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8149_2_1_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>15:30:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8149_2_5_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8149_2_1_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>17:15:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+            <ServiceJourney version="2024051333932" id="TEL:ServiceJourney:8149_2_4">
+              <Name>Skinnarbu kai</Name>
+              <PrivateCode>1022</PrivateCode>
+              <dayTypes>
+                <DayTypeRef ref="TEL:DayType:Cal2024051333932-Jul_Sat_06-Aug_Sun_04-MoTuWeThFrSaSu"></DayTypeRef>
+              </dayTypes>
+              <JourneyPatternRef ref="TEL:JourneyPattern:8149_2_1" version="2024051333932"></JourneyPatternRef>
+              <OperatorRef ref="TEL:Operator:92"></OperatorRef>
+              <LineRef ref="TEL:Line:8149" version="2024051333932"></LineRef>
+              <passingTimes>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8149_2_4_1">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8149_2_1_1" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <DepartureTime>11:30:00</DepartureTime>
+                </TimetabledPassingTime>
+                <TimetabledPassingTime version="2024051333932" id="TEL:TimetabledPassingTime:8149_2_4_2">
+                  <StopPointInJourneyPatternRef ref="TEL:StopPointInJourneyPattern:8149_2_1_2" version="2024051333932"></StopPointInJourneyPatternRef>
+                  <ArrivalTime>13:15:00</ArrivalTime>
+                </TimetabledPassingTime>
+              </passingTimes>
+            </ServiceJourney>
+          </vehicleJourneys>
+          <noticeAssignments>
+            <NoticeAssignment order="4" version="1" id="TEL:NoticeAssignment:3772228">
+              <NoticeRef ref="TEL:Notice:92"></NoticeRef>
+              <NoticedObjectRef ref="TEL:ServiceJourney:8149_1_2" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="2" version="1" id="TEL:NoticeAssignment:3772226">
+              <NoticeRef ref="TEL:Notice:58"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8149_1_3_1" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="15" version="1" id="TEL:NoticeAssignment:3772239">
+              <NoticeRef ref="TEL:Notice:58"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8149_2_5_2" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="5" version="1" id="TEL:NoticeAssignment:3772229">
+              <NoticeRef ref="TEL:Notice:58"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8149_1_2_1" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="6" version="1" id="TEL:NoticeAssignment:3772230">
+              <NoticeRef ref="TEL:Notice:58"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8149_1_2_2" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="18" version="1" id="TEL:NoticeAssignment:3772242">
+              <NoticeRef ref="TEL:Notice:58"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8149_2_4_2" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="8" version="1" id="TEL:NoticeAssignment:3772232">
+              <NoticeRef ref="TEL:Notice:58"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8149_1_1_1" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="12" version="1" id="TEL:NoticeAssignment:3772236">
+              <NoticeRef ref="TEL:Notice:58"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8149_2_6_2" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="1" version="1" id="TEL:NoticeAssignment:3772225">
+              <NoticeRef ref="TEL:Notice:92"></NoticeRef>
+              <NoticedObjectRef ref="TEL:ServiceJourney:8149_1_3" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="10" version="1" id="TEL:NoticeAssignment:3772234">
+              <NoticeRef ref="TEL:Notice:92"></NoticeRef>
+              <NoticedObjectRef ref="TEL:ServiceJourney:8149_2_6" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="17" version="1" id="TEL:NoticeAssignment:3772241">
+              <NoticeRef ref="TEL:Notice:58"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8149_2_4_1" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="14" version="1" id="TEL:NoticeAssignment:3772238">
+              <NoticeRef ref="TEL:Notice:58"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8149_2_5_1" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="7" version="1" id="TEL:NoticeAssignment:3772231">
+              <NoticeRef ref="TEL:Notice:92"></NoticeRef>
+              <NoticedObjectRef ref="TEL:ServiceJourney:8149_1_1" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="16" version="1" id="TEL:NoticeAssignment:3772240">
+              <NoticeRef ref="TEL:Notice:92"></NoticeRef>
+              <NoticedObjectRef ref="TEL:ServiceJourney:8149_2_4" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="3" version="1" id="TEL:NoticeAssignment:3772227">
+              <NoticeRef ref="TEL:Notice:58"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8149_1_3_2" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="9" version="1" id="TEL:NoticeAssignment:3772233">
+              <NoticeRef ref="TEL:Notice:58"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8149_1_1_2" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="11" version="1" id="TEL:NoticeAssignment:3772235">
+              <NoticeRef ref="TEL:Notice:58"></NoticeRef>
+              <NoticedObjectRef ref="TEL:TimetabledPassingTime:8149_2_6_1" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+            <NoticeAssignment order="13" version="1" id="TEL:NoticeAssignment:3772237">
+              <NoticeRef ref="TEL:Notice:92"></NoticeRef>
+              <NoticedObjectRef ref="TEL:ServiceJourney:8149_2_5" version="2024051333932"></NoticedObjectRef>
+            </NoticeAssignment>
+          </noticeAssignments>
+        </TimetableFrame>
+      </frames>
+    </CompositeFrame>
+  </dataObjects>
+</PublicationDelivery>
